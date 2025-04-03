@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LOOKHEART</string>
+
+    <!-- TERMS -->
+    <string name="terms_agree">agree_br.txt</string>
+    <string name="terms_privacy">privacy_br.txt</string>
+
+    <!-- MSG -->
+    <string name="msg_ok">OK</string>
+    <string name="msg_cancel_upper">Cancelar</string>
+    <string name="msg_reject">Cancelar</string>
+    <string name="msg_or">OU</string>
+    <string name="msg_re_request">Repetir</string>
+
+    <string name="msg_unknown">Desconhecido</string>
+    <string name="msg_none">Nenhum</string>
+
+    <string name="msg_enable">LIGADO</string>
+    <string name="msg_disable">DESLIGADO</string>
+
+    <string name="msg_later">Mais tarde</string>
+    <string name="msg_reSend">Reenviar</string>
+    <string name="msg_agree">Concordo</string>
+
+    <string name="msg_back">Voltar</string>
+    <string name="msg_next">Próximo</string>
+    <string name="msg_move_first">Início</string>
+
+    <string name="msg_stop_space">PARAR</string>
+    <string name="msg_search_space">Buscar</string>
+    <string name="msg_save_space">Salvar</string>
+    <string name="msg_save">Salvar</string>
+
+    <string name="msg_exit">Sair</string>
+
+    <string name="msg_all">Todos</string>
+    <string name="msg_details">Detalhes</string>
+
+    <string name="msg_hour">%1$dh</string>
+    <string name="msg_hour_string">%1$sh</string>
+    <string name="msg_time_value">%1$sh %2$sm %3$ss</string>
+
+    <string name="msg_total_occ">Ocorrências Totais</string>
+    <string name="msg_avg_occ">Média de Ocorrências</string>
+    <string name="msg_hourly_occ">Média por Hora</string>
+    <string name="msg_daily_occ">Média Diária</string>
+    <string name="msg_monthly_occ">Média Mensal</string>
+
+    <string name="msg_std_dev">Desvio Padráo</string>
+    <string name="msg_max_std_dev">Desvio Padráo Máx</string>
+    <string name="msg_min_std_dev">Desvio Padráo Mín</string>
+
+    <!-- Dialog -->
+    <string name="dialog_notification">Notificação</string>
+    <string name="dialog_exit">Sair?</string>
+    <string name="dialog_save">Salvo</string>
+    <string name="dialog_logout">Tem certeza que deseja sair?</string>
+    <string name="dialog_ready_func">Função em preparação</string>
+    <string name="dialog_update_app">Uma atualização é necessária.\nDeseja atualizar na Play Store?</string>
+    <string name="dialog_emergency_send">Alerta ao responsável será enviado.\nPressione o botão para cancelar.</string>
+    <string name="dialog_emergency_send_offline">Após reconexão,\nalerta ao responsável será enviado.\nPressione o botão para cancelar.</string>
+    <string name="dialog_emergency_retrieve_location">Não foi possível obter a localização.</string>
+
+    <!--    Error    -->
+    <string name="dialog_error_version">O servidor não pôde verificar a versão.</string>
+    <string name="dialog_error_connect">Não foi possível conectar ao servidor. Tente novamente mais tarde.</string>
+    <string name="dialog_error_noData">Sem dados disponíveis</string>
+    <string name="dialog_error_server">Falha ao obter dados do servidor</string>
+    <string name="dialog_error_server_noData">O servidor não pôde verificar os dados.</string>
+    <string name="dialog_error_network">Ocorreu um erro de rede.\n%1$s</string>
+    <string name="dialog_error_load_data">Ocorreu um problema de conexão com o servidor.\nPor favor, faça login novamente.</string>
+
+    <!-- Navi -->
+    <string name="navi_home">Início</string>
+    <string name="navi_summary">Resumo</string>
+    <string name="navi_exercise">Exercício</string>
+    <string name="navi_arr">R.C.I.</string>
+    <string name="navi_profile">Perfil</string>
+
+    <string name="navi_home_eng">Home</string>
+    <string name="navi_summary_eng">Summary</string>
+    <string name="navi_exercise_eng">Exercise</string>
+    <string name="navi_arr_eng">I.H.R.</string>
+    <string name="navi_profile_eng">Profile</string>
+
+    <!-- Status -->
+    <string name="msg_status_rest">DS</string>
+    <string name="msg_status_exercise">AT</string>
+    <string name="msg_status_sleep">SN</string>
+
+    <!-- Ble -->
+    <string name="msg_ble_device_list">Dispositivos conectáveis</string>
+    <string name="msg_ble_device_connect">Conectar</string>
+    <string name="msg_ble_device_disconnect">Desconectar</string>
+    <string name="msg_ble_device_scan">Encontrar Dispositivo</string>
+    <string name="msg_ble_off">Bluetooth Desligado</string>
+
+    <string name="desc_ble_device_connect">Deseja conectar\n%1$s</string>
+    <string name="desc_ble_always_connect">Sempre Conectado</string>
+    <string name="desc_ble_disconnect">Deseja desconectar este dispositivo?</string>
+    <string name="desc_ble_disabled">Bluetooth está desligado.\nPor favor, ative-o.</string>
+
+    <!-- Unidade -->
+    <string name="unit_number">Número</string>
+    <string name="unit_time">Tempo</string>
+    <string name="unit_min">Mín</string>
+    <string name="unit_max">Máx</string>
+    <string name="unit_avg_cap">Média</string>
+
+    <!-- Stress -->
+    <string name="label_unit_avg_sns">Sistema Simpático Médio</string>
+    <string name="label_unit_avg_pns">Sistema Parassimpático Médio</string>
+
+    <string name="unit_pns">PNS</string>
+    <string name="unit_sns">SNS</string>
+
+
+    <!-- Temperatura -->
+    <string name="unit_temperature">°C</string>
+    <string name="msg_temperature">Temp.</string>
+    <string name="value_temperature">- °C</string>
+
+    <!-- Passos -->
+    <string name="unit_step_cap">Passo</string>
+    <string name="unit_step">Passos</string>
+    <string name="value_step">0 passo</string>
+    <string name="label_hourly_steps">Passos por hora</string>
+    <string name="label_daily_steps">Passos Diários</string>
+    <string name="label_monthly_steps">Passos Mensais</string>
+
+    <string name="value_steps">%1$d Passos</string>
+
+    <!-- Distância -->
+    <string name="unit_travel_distance">Distância</string>
+    <string name="unit_distance">Distância</string>
+    <string name="unit_distance_km">km</string>
+    <string name="unit_distance_m">m</string>
+    <string name="value_distance">0.000 km</string>
+    <string name="label_hourly_distance">Distância por hora</string>
+    <string name="label_daily_distance">Distância Diária</string>
+    <string name="label_monthly_distance">Distância Mensal</string>
+
+    <string name="value_distance_3f">%1$.3f km</string>
+
+    <!-- Bpm -->
+    <string name="unit_bpm_upper">BPM</string>
+    <string name="unit_bpm_low">bpm</string>
+    <string name="unit_bpm_cap">BPM</string>
+    <string name="unit_bpm_avg">Média</string>
+    <string name="unit_current_bpm">Frequência Cardíaca Atual</string>
+
+    <!-- Calorias -->
+    <string name="unit_tCal_cap">Calorias</string>
+    <string name="unit_kcal">kcal</string>
+
+    <string name="unit_calorie_burn">Calorias Queimadas</string>
+
+    <string name="unit_tCal">Total calorias</string>
+    <string name="unit_tCal_newline">Total\ncalorias</string>
+
+    <string name="unit_eCal">Calorias Ativas</string>
+    <string name="unit_eCal_newline">Calorias\nAtivas</string>
+
+    <string name="value_eCal">0 kcal</string>
+    <string name="msg_eCal_abb">Cal Ativas</string>
+
+    <string name="value_calorie">%1$d kcal</string>
+
+    <string name="label_hourly_calorie">Calorias queimadas por hora</string>
+    <string name="label_hourly_active_calorie">Calorias ativas por hora</string>
+
+    <string name="label_daily_calorie">Calorias Queimadas Diárias</string>
+    <string name="label_daily_active_calorie">Calorias Ativas Diárias</string>
+
+    <string name="label_monthly_calorie">Calorias Queimadas Mensais</string>
+    <string name="label_monthly_active_calorie">Calorias Ativas Mensais</string>
+
+    <!-- HRV -->
+    <string name="msg_hrv_eng">VFC</string>
+    <string name="unit_hrv_upper">VFC</string>
+    <string name="unit_hrv_avg">Média</string>
+    <string name="unit_hrv">ms</string>
+
+    <!-- Data -->
+    <string name="unit_today">Hoje</string>
+    <string name="unit_twoDays">2 Dias</string>
+    <string name="unit_threeDays">3 Dias</string>
+
+    <string name="unit_day">Dia</string>
+    <string name="unit_week">Semana</string>
+    <string name="unit_month">Mês</string>
+    <string name="unit_year">Ano</string>
+
+    <!-- Dia da semana -->
+    <string name="unit_monday">SEG</string>
+    <string name="unit_tuesday">TER</string>
+    <string name="unit_wednesday">QUA</string>
+    <string name="unit_thursday">QUI</string>
+    <string name="unit_friday">SEX</string>
+    <string name="unit_saturday">SÁB</string>
+    <string name="unit_sunday">DOM</string>
+
+    <!--    Start    -->
+    <string name="msg_start">Começar</string>
+    <string name="msg_welcome_eng">Bem-vindo!</string>
+    <string name="desc_welcome">Bem-vindo ao serviço LOOKHEART.\nPor favor, faça login ou inscreva-se para começar!</string>
+
+    <!-- Guardião -->
+    <string name="msg_guardian">Guardião</string>
+    <string name="msg_set_guardian">Config. do Responsável</string>
+    <string name="msg_alert_guardian">Alertas do Responsável</string>
+    <string name="dialog_guardian_phone">Insira o número de telefone do guardião.</string>
+    <string name="dialog_valid_guardian">Insira %1$s corretamente.\n(6 dígitos ou mais)</string>
+    <string name="dialog_delete_guardian">Tem certeza de que deseja excluir o guardião?</string>
+
+    <!-- Login -->
+    <string name="msg_login">Entrar</string>
+    <string name="msg_login_eng">Login</string>
+    <string name="msg_quick_login">Login Rápido</string>
+    <string name="msg_google_login">Entrar com Google</string>
+
+    <string name="msg_email">E-mail</string>
+    <string name="msg_password">Senha</string>
+    <string name="msg_autoLogin">Login Automático</string>
+    <string name="msg_find_email_password">Esqueceu sua senha?</string>
+
+    <string name="desc_login">Bem-vindo ao serviço LOOKHEART.\nDigite seu ID e senha registrados.</string>
+    <string name="desc_login_hint">Faça login com seu e-mail e senha.</string>
+    <string name="desc_signup">É a sua primeira vez usando o LOOKHEART?</string>
+    <string name="desc_select_birthday">Selecione sua data de nascimento.</string>
+    <string name="desc_select_date">Selecione a data.</string>
+
+    <string name="dialog_social_login">Ocorreu um erro durante o login.\nTente novamente.</string>
+    <string name="dialog_social_signUp">Nenhuma conta encontrada.\nDeseja criar uma?</string>
+    <string name="dialog_cannot_found_phoneNumbe">Número de telefone não encontrado.\nTente novamente.</string>
+    <string name="dialog_incorrect_email_password">O formato do seu e-mail ou senha está incorreto.\nPor favor, use o formato correto e tente novamente.</string>
+    <string name="dialog_incorrect_password">O formato da senha que você inseriu está incorreto.\nSenha: ≥10 caracteres, incluindo maiúsculas, minúsculas, números e caracteres especiais</string>
+    <string name="dialog_fail_login">Falha no login.\nPor favor, verifique seu e-mail e senha e tente novamente.</string>
+
+    <!-- Change Password & Find Email -->
+    <string name="label_find_email_password">Recuperação de ID/Senha</string>
+    <string name="hint_find_email_first">A recuperação de ID é</string>
+    <string name="hint_find_email_second">* verificação do celular *</string>
+    <string name="hint_find_email_third">apenas disponível para usuários que concluíram.</string>
+    <string name="hint_select_auth">Por favor, autentique-se usando o método que você selecionou durante o cadastro.</string>
+    <string name="hint_find_email">Por favor, forneça seu nome completo e data de nascimento com precisão.</string>
+    <string name="hint_change_password">Por favor, preencha o formulário abaixo para definir uma nova senha.</string>
+
+    <string name="msg_find_email">Recuperar ID</string>
+    <string name="msg_phone_number">Número de Telefone</string>
+    <string name="desc_find_email">Insira as informações necessárias para verificação de identidade.</string>
+    <string name="desc_change_password">É hora de atualizar sua senha para a segurança da conta.</string>
+    <string name="dialog_fail_change_password">Falha na alteração de senha</string>
+
+    <string name="dialog_cancel_find_email">Você deseja cancelar a busca pelo ID?</string>
+    <string name="dialog_cancel_find_password">Você deseja cancelar a busca pela senha?</string>
+
+    <!-- Sign Up -->
+    <string name="msg_signup">Inscrever-se</string>
+    <string name="msg_signup_value">Inscrever-se%1$s</string>
+    <string name="msg_input_email">Insira o ID (E-mail)</string>
+    <string name="msg_input_password">Insira a Senha</string>
+    <string name="msg_reEnter_password">Reinsira a senha</string>
+    <string name="msg_name">Nome</string>
+    <string name="msg_first_name">Nome</string>
+    <string name="msg_last_name">Sobrenome</string>
+    <string name="msg_height_value_unit">%1$scm</string>
+    <string name="msg_weight_value_unit">%1$skg</string>
+    <string name="msg_height_unit">cm</string>
+    <string name="msg_weight_unit">kg</string>
+    <string name="msg_male">Masculino</string>
+    <string name="msg_female">Feminino</string>
+    <string name="msg_birthday">Data de Nascimento</string>
+
+    <string name="desc_enter_name">Por favor, insira seu sobrenome e nome!</string>
+    <string name="desc_enter_height_weight">Por favor, insira sua altura e peso!</string>
+    <string name="desc_enter_gender">Por favor, escolha seu gênero!</string>
+    <string name="desc_enter_birthday">Por favor, selecione sua data de nascimento!</string>
+    <string name="desc_enter_account">Por favor, insira seu endereço de e-mail e senha!</string>
+
+    <string name="desc_enter_email">Por favor, insira seu e-mail</string>
+    <string name="desc_enter_password">Por favor, insira uma senha</string>
+    <string name="desc_re_enter_password">Por favor, reintroduza sua senha.</string>
+    <string name="desc_valid_password">Senha: ≥10 caracteres, incluindo maiúsculas, minúsculas, números e caracteres especiais</string>
+    <string name="desc_height">Por favor, insira sua altura.</string>
+    <string name="desc_weight">Por favor, insira seu peso.</string>
+    <string name="desc_gender">Escolha seu gênero.</string>
+    <string name="desc_auth_email">Seu e-mail está verificado.</string>
+
+    <string name="dialog_valid_name">Por favor, insira um nome válido.</string>
+    <string name="dialog_valid_password_abb">Senha com maiúsculas, números e símbolos</string>
+    <string name="dialog_valid_reEnter_password">As senhas não conferem</string>
+    <string name="dialog_not_agree">Por favor, leia e concorde com os termos e condições completos.</string>
+    <string name="dialog_dup_email">Este e-mail já existe.</string>
+    <string name="dialog_move_login">Voltar para a página de login</string>
+    <string name="dialog_move_home">Indo para a tela inicial.</string>
+    <string name="dialog_check_email">Por favor, verifique o formato do seu e-mail.</string>
+    <string name="dialog_complete_signup">concluído</string>
+    <string name="dialog_enter_real_email">Insira o e-mail real que você está usando.</string>
+    <string name="dialog_valid_email">Por favor, insira um e-mail válido</string>
+    <string name="dialog_valid_email_ex">Por favor, insira um e-mail válido\n(ex: lookheart@msl.co.kr)</string>
+
+    <!-- Arr -->
+    <string name="unit_arr_abb">R.C.I.</string> <!-- Ritmo Cardíaco Irregular -->
+    <string name="unit_arr_abb_newline">R.C.I.</string>
+    <string name="unit_arr_times">R.C.I.\n(vezes/dia)</string>
+    <string name="unit_current_arr">Arritmia Atual</string>
+
+    <string name="msg_arr_status">Status</string>
+    <string name="msg_arr_type">Tipo</string>
+    <string name="msg_arr_emergency">"Emergência: "</string>
+
+    <string name="msg_type_arr">R.C.I.</string>
+    <string name="msg_type_fast_arr">Ritmo cardíaco rápido</string>
+    <string name="msg_type_slow_arr">Ritmo cardíaco lento</string>
+    <string name="msg_type_heavy_arr">R.C.I. forte</string>
+    <string name="msg_type_total_arr">R.C.I. (Total)</string>
+    <string name="msg_type_hourly_arr">Por hora R.C.I.</string>
+    <string name="msg_type_daily_arr">R.C.I. Diário</string>
+    <string name="msg_type_monthly_arr">R.C.I. Mensal</string>
+    <string name="msg_type_hourly_emergency">Por hora Emergência</string>
+    <string name="msg_avg_monthly_arr">Média de Arritmia\nno Último Mês</string>
+
+    <!--    Arr: Noti Title & Body    -->
+    <string name="dialog_arr">R.C.I. detectado!\n</string>
+    <string name="dialog_fast_arr">Ritmo cardíaco rápido detectado!\n</string>
+    <string name="dialog_slow_arr">Ritmo cardíaco lento detectado!\n</string>
+    <string name="dialog_heavy_arr">R.C.I. forte detectado!\n</string>
+    <string name="dialog_time">"Hora: "</string>
+    <string name="dialog_myo">Mio-atividade detectada!\n</string>
+    <string name="dialog_nonContact">Eletrodo desconectado!\n</string>
+    <string name="dialog_total_arr">R.C.I. ocorreu %1$d vezes hoje!</string>
+    <string name="dialog_hourly_arr">R.C.I. ocorreu %1$d vezes por hora!</string>
+
+    <string-array name="dialog_arr_body">
+        <item>Pare um momento e descanse.</item>
+        <item>Descanso diário melhora a vida.</item>
+        <item>Mesmo na correria, uma pausa faz diferença.</item>
+        <item>Deixe o estresse e encontre paz.</item>
+        <item>Que tal uma pequena pausa?</item>
+        <item>Descansar é uma fonte de força.</item>
+        <item>Relaxe um pouco.</item>
+        <item>Descanso é o melhor investimento em si mesmo.</item>
+    </string-array>
+
+    <!-- Arr: Alert Title & Body -->
+    <string name="dialog_total_arr_title">Houve %1$d ocorrências de R.C.I. hoje!\n</string>
+    <string name="dialog_hourly_arr_title">Houve %1$d ocorrências de R.C.I. na última hora!\n</string>
+
+    <string-array name="dialog_total_hourly_arr_body">
+        <item>Às vezes, fazer nada é fazer muito.\nRelaxe um momento.</item>
+        <item>Uma pausa rápida é um presente.\nLevante-se e alongue-se.</item>
+        <item>Pare e respire profundamente.\nUm descanso é uma grande força.</item>
+        <item>Um breve descanso recarrega sua mente.</item>
+        <item>Deixe tudo de lado e descanse hoje.</item>
+        <item>Você também merece descansar.\nTire um tempo para si.</item>
+        <item>Seu coração precisa de descanso.\nOuça sua voz interior.</item>
+        <item>Apaixonar-se pelo que faz é bom,\nmas descansar é necessário.</item>
+    </string-array>
+
+    <!-- Emergency -->
+    <string name="msg_emergency">Emergência</string>
+    <string name="msg_emergency_alert">Alerta de emergência</string>
+    <string name="msg_emergency_space">Emergência</string>
+    <string name="dialog_emergency_complete_send">Enviado</string>
+    <string name="dialog_emergency_complete_booked">Confirmado</string>
+    <string name="dialog_emergency_failed_send">Falha no envio</string>
+    <string name="dialog_emergency_sending">Enviando..</string>
+    <string name="dialog_emergency_empty_guardian">Ligue para 192 ou vá ao hospital mais próximo imediatamente.</string>
+    <string name="dialog_emergency_guardian">Sua localização foi enviada para o responsável. Verifique imediatamente.</string>
+
+    <!--    Profile    -->
+    <string name="msg_sir">""</string>
+    <string name="msg_age">Idade</string>
+    <string name="msg_height">Altura</string>
+    <string name="msg_weight">Peso</string>
+    <string name="msg_gender">Gênero</string>
+    <string name="msg_basic">Info</string>
+    <string name="msg_target">Meta</string>
+    <string name="msg_setting">Config</string>
+    <string name="msg_menu">Menu</string>
+    <string name="msg_email_template">◦ %1$s</string>
+    <string name="msg_joinDate">Data de Inscrição</string>
+    <string name="msg_find_password">Recuperar Senha</string>
+    <string name="msg_logout">SAIR</string>
+    <string name="msg_target_step">Meta de Passos</string>
+    <string name="msg_target_distance">Meta de Distância</string>
+    <string name="msg_target_aCal">Meta de Calorias Ativas</string>
+    <string name="msg_target_cal">Meta de Calorias Totais</string>
+    <string name="msg_sleep">Hora de Dormir</string>
+    <string name="msg_wakeup">Hora de Acordar</string>
+    <string name="msg_help_notification">Configurações de Notificação de Atividade</string>
+    <string name="msg_help_guardian_notification">Notificação ao Guardião</string>
+    <string name="msg_help_guardian_arr_number">Número de R.C.I.</string>
+    <string name="msg_phone">Número de Telefone (sem \'-\')</string>
+    <string name="msg_bpm">BPM baseado em atividade</string>
+    <string name="msg_myo">Mio-atividade</string>
+    <string name="msg_nonContact">Eletrodo desconectado</string>
+    <string name="msg_guardianNumber1">Número do guardião</string>
+    <string name="msg_guardianNumber2">Número do guardião 2 (sem \'-\')</string>
+    <string name="msg_change_Password">Alterar Senha</string>
+
+    <string name="msg_delete_app_data">Excluir Dados do App</string>
+    <string name="msg_privacy_policy">Política de Privacidade</string>
+    <string name="msg_terms_service">Termos de Serviço</string>
+
+    <string name="msg_legal_other">Informações Legais e Outras</string>
+
+    <string name="desc_first_name">Insira o nome.</string>
+    <string name="desc_last_name">Insira o sobrenome.</string>
+    <string name="desc_help_info">Todas as informações pessoais\nque você insere são criptografadas e gerenciadas com segurança.</string>
+    <string name="desc_help_target">Defina padrões adequados para você\ne atinja suas metas diárias de saúde.</string>
+    <string name="desc_help_guardian">Quando os pulsos anormais excedem o limite,\numa notificação é enviada ao guardião com o app instalado.</string>
+    <string name="desc_help_bpm">A média de bpm para atividade adulta é 90.</string>
+
+    <string name="desc_valid_first_name">nsira um nome válido.</string>
+    <string name="desc_valid_last_name">Insira um sobrenome válido.</string>
+    <string name="desc_valid_height">Insira uma altura válida.</string>
+    <string name="desc_valid_weight">Insira um peso válido.</string>
+
+    <string name="desc_set_bed_time">Defina a hora de dormir!</string>
+    <string name="desc_set_wake_time">Defina a hora de acordar!</string>
+
+    <string name="desc_success_verify">Verificado</string>
+
+    <string name="dialog_valid_data">Insira um valor válido.</string>
+
+    <!-- Delete Account -->
+    <string name="msg_delete_account">Excluir Conta</string>
+    <string name="msg_privacy">Informações Pessoais e Destruição</string>
+    <string name="msg_service_log">Registros de Uso do Serviço</string>
+    <string name="msg_reSignUp">Reinscrição</string>
+    <string name="msg_account_delete_agree">Concordar com Tudo</string>
+
+    <string name="desc_email_example">ex: lookheart@msl.co.kr</string>
+    <string name="desc_privacy">Suas informações pessoais serão processadas de acordo com a política de privacidade da MSL Co., Ltd.(GREBT)\nAs informações serão mantidas pelo período especificado por lei e serão destruídas em seguida.</string>
+    <string name="desc_service_log">Quando a retenção for exigida por lei (como registros de transações),\nas informações serão mantidas conforme o período legal.\nIsso se aplica apenas quando necessário manter registros de uso do serviço.</string>
+    <string name="desc_reSignIp">Mesmo que você se reinscreva após cancelar a inscrição,\nas informações anteriores e registros de transações não serão restaurados.</string>
+    <string name="desc_notes">Para mais detalhes, consulte a Política de Privacidade do LOOKHEART.</string>
+    <string name="desc_account_delete_agree">Li todas as precauções e concordo com os termos.</string>
+    <string name="desc_account_delete">Antes de sair do LOOKHEART,\nverifique as informações abaixo.</string>
+
+    <string name="dialog_account_delete">Tem certeza que deseja excluir a conta?</string>
+    <string name="dialog_completed_delete">Conta excluída com sucesso</string>
+    <string name="dialog_failer_delete">Falha ao excluir conta</string>
+    <string name="dialog_notExist_email">O ID não existe.</string>
+    <string name="dialog_validate_data">Insira um %1$s válido.</string>
+    <string name="dialog_valid_password">Sua senha não atende aos requisitos.</string>
+    <string name="dialog_valid_reEnter">As senhas não conferem.</string>
+
+    <!--    Auth    -->
+    <string name="unit_email_address">Endereço de Email</string>
+    <string name="unit_email">Verificação de Email</string>
+    <string name="unit_success_send_email">Email de Verificação Enviado!</string>
+    <string name="unit_phone_number">Verificação de Número de Celular</string>
+    <string name="msg_verification">Verificação de Identidade</string>
+    <string name="msg_verify_number">Número de Verificação:</string>
+    <string name="value_country_code">%1$s(%2$d)</string>
+
+    <string name="desc_auth">Complete a verificação de identidade\npara usar o serviço.</string>
+
+    <string name="dialog_select_auth">Por favor, selecione um dos seguintes métodos para verificar sua identidade.\nVocê pode prosseguir com o processo de verificação usando o método escolhido.</string>
+    <string name="dialog_auth_email_help">Para proteger sua conta de forma segura, por favor, complete a verificação de email.\nDigite seu email e clique no botão para enviar o email de verificação.</string>
+    <string name="dialog_send_auth_email_help">Enviar Email de Verificação</string>
+
+    <string name="dialog_success_send_auth_email_help_1">Email Enviado com Sucesso!</string>
+    <string name="dialog_success_send_auth_email_help_2">Por favor, clique no botão</string>
+    <string name="dialog_success_send_auth_email_help_3">\"Verificar\"</string>
+    <string name="dialog_success_send_auth_email_help_4">incluído no email para completar a verificação.</string>
+    <string name="dialog_success_send_auth_email_help_5">※ Se você não recebeu o email, por favor, verifique sua caixa de spam ou solicite novamente."</string>
+
+    <string name="dialog_help_select_country">Escolha seu país.</string>
+    <string name="dialog_auth_country_code">Código do País</string>
+    <string name="dialog_cancel_auth">Deseja cancelar o processo de verificação de identidade?</string>
+    <string name="dialog_cancel_signup">Tem certeza de que deseja cancelar seu cadastro?</string>
+    <string name="dialog_resend_number">◦ Não recebeu o código? Reenviar.</string>
+    <string name="dialog_verify">Verificar</string>
+    <string name="dialog_success_verify">Verificação Concluída</string>
+    <string name="dialog_failed_verify">Autenticação Falhou. Por favor, tente novamente.</string>
+    <string name="dialog_time_help">◦ Insira o código em até 3 minutos.</string>
+    <string name="dialog_auth_phone_help">Insira o código de verificação de 6 dígitos.</string>
+    <string name="dialog_dup_phoneNumber_help">Já existe um ID para este número.</string>
+    <string name="dialog_reSend_help">Deseja modificar o número?</string>
+    <string name="dialog_exceeded_verification_help">Você excedeu o limite diário de códigos de verificação.</string>
+    <string name="dialog_sendVerification_help">Enviar número de certificação</string>
+    <string name="dialog_confirmVerification_help">Confirme novamente seu número de certificação</string>
+    <string name="dialog_auth_time_over">O tempo da solicitação expirou.\nPor favor, tente novamente.</string>
+    <string name="dialog_setupGuardian_help">Insira corretamente seu número de celular</string>
+    <string name="dialog_find_email_help">Resultados da busca por ID</string>
+    <string name="dialog_not_found_email">Não conseguimos encontrar um ID correspondente às informações que você inseriu.</string>
+    <string name="dialog_copy_email">O email foi copiado.</string>
+    <string name="dialog_change_password_help">Alteração de senha concluída</string>
+
+    <!--    Chart    -->
+    <string name="value_chart_plus">+%1$d</string>
+    <string name="value_chart_minus">-%1$d</string>
+    <string name="value_chart_data">%1$s %2$s</string>
+    <string name="value_chart_percent">%1$d%%</string>
+
+    <!--    Permission    -->
+    <string name="dialog_permission_battery">Desativar otimização de bateria</string>
+    <string name="dialog_permission_battery_help">Para ativar dados em segundo plano,\ndesative a otimização de bateria.\nPressione \'OK\' para continuar.</string>
+    <string name="dialog_permission_ble">Dispositivos próximos</string>
+    <string name="dialog_permission_location">Localização</string>
+    <string name="dialog_permission_denied_permission">Para usar o aplicativo LOOKHEART,\npor favor, conceda as seguintes permissões.\n◦ Dispositivos próximos\n◦ Informações de localização</string>
+
+    <!--    Exercise    -->
+    <string name="value_exercise_timer">%1$d</string>
+    <string name="msg_exercise_timer">T. Exercício</string>
+    <string name="msg_exercise_cnt">F. Exercício</string>
+
+    <string name="msg_exercise_record_eng">Record</string>
+    <string name="msg_exercise_start_eng">START</string>
+    <string name="msg_exercise_back_eng">BACK</string>
+    <string name="msg_exercise_delete_eng">DELETE</string>
+
+    <string name="msg_date">Data</string>
+    <string name="msg_time">Tempo</string>
+
+    <string name="msg_exercise_type">Exercício:</string>
+    <string name="msg_exercise_time">Tempo:</string>
+
+    <string name="msg_exercise_avg_bpm">Média</string>
+    <string name="msg_exercise_min">Mín</string>
+    <string name="msg_exercise_max">Máx</string>
+
+    <string name="msg_step_eng_row">passo</string>
+    <string name="msg_steps_eng_row">passos</string>
+    <string name="msg_times_eng_row">contagem</string>
+    <string name="msg_exercise_activity_calorie">A.Caloria</string>
+    <string name="msg_exercise_calorie_newline">Caloria\nde Atividade</string>
+
+    <string name="dialog_start_exercise">Deseja iniciar o exercício?</string>
+    <string name="dialog_save_exercise">Deseja salvar os dados do exercício?</string>
+
+    <string name="dialog_prev_noData">Dados anteriores não existem.</string>
+    <string name="dialog_next_noData">Próximos dados não existem.</string>
+    <string name="dialog_delete_help">Tem certeza de que deseja excluir o exercício?</string>
+
+    <string name="dialog_comp_delete">Exclusão Concluída</string>
+    <string name="dialog_fail_delete">Falha na Exclusão</string>
+    <string name="dialog_add">Adicionar</string>
+    <string name="dialog_remove">Remover</string>
+
+    <string name="dialog_fav_eng">FAVS</string>
+    <string name="dialog_list_eng">LIST</string>
+
+    <string name="dialog_add_favorite">Deseja adicionar aos favoritos?</string>
+    <string name="dialog_delete_favorite">Deseja remover dos favoritos?</string>
+
+    <string name="desc_search_select_exercise">Pesquise ou selecione um exercício</string>
+    <string name="desc_add_exercise">Adicionar aos Favoritos</string>
+    <string name="desc_add_exercise_name">Insira o nome do exercício para adicionar.</string>
+
+    <string name="exercise_ball">Esportes com bola</string>
+    <string name="exercise_bike">Bicicleta</string>
+    <string name="exercise_crossfit">CrossFit</string>
+    <string name="exercise_floor">Subida de escadas</string>
+    <string name="exercise_handball">Handebol</string>
+    <string name="exercise_hiking">Caminhada</string>
+    <string name="exercise_interval">Treino intervalado</string>
+    <string name="exercise_jump">Pular corda</string>
+    <string name="exercise_kayaking">Canoagem</string>
+    <string name="exercise_pilates">Pilates</string>
+    <string name="exercise_pool">Natação</string>
+    <string name="exercise_rowing">Remo</string>
+    <string name="exercise_run">Corrida</string>
+    <string name="exercise_scuba">Mergulho</string>
+    <string name="exercise_skateboarding">Skate</string>
+    <string name="exercise_skiing">Esqui</string>
+    <string name="exercise_strength">Treino de força</string>
+    <string name="exercise_stretching">Alongamento</string>
+    <string name="exercise_surfing">Surfe</string>
+    <string name="exercise_walk">Caminhada</string>
+    <string name="exercise_yoga">Ioga</string>
+
+    <!--    Stress    -->
+    <string name="unit_stress">Estresse</string>
+    <string name="unit_stress_upper">ESTRESSE</string>
+    <string name="unit_stress_score">Pontuação</string>
+    <string name="unit_stress_high">Alto</string>
+    <string name="hint_stress">Medir em intervalos de 5 minutos</string>
+    <string name="hint_measuring_stress">Medindo</string>
+
+    <!--    Error Message    -->
+    <string name="error_no_data">Sem dados para exibir.</string>
+    <string name="error">Ocorreu um erro desconhecido.\nPor favor, tente novamente mais tarde.</string>
+    <string name="error_timeout">O tempo da solicitação expirou.\nPor favor, verifique sua conexão com a internet e tente novamente.</string>
+    <string name="error_io">Ocorreu um erro de rede.\nPor favor, verifique sua conexão com a internet e tente novamente.</string>
+    <string name="error_unauthorized">Você não tem permissão. Por favor, faça login novamente e tente.</string>
+    <string name="error_forbidden">Você não tem permissão para realizar esta ação.</string>
+    <string name="error_not_found">Não foi possível encontrar o conteúdo solicitado.\nPor favor, tente novamente.</string>
+    <string name="error_server">Ocorreu um erro no servidor.\nPor favor, tente novamente mais tarde.</string>
+    <string name="error_http">Ocorreu um erro inesperado.\nPor favor, tente novamente mais tarde.</string>
+
+</resources>

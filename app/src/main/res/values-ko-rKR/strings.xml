@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LOOKHEART</string>
+
+    <!-- TERMS -->
+    <string name="terms_agree">agree.txt</string>
+    <string name="terms_privacy">privacy.txt</string>
+
+    <!-- MSG -->
+    <string name="msg_ok">확인</string>
+    <string name="msg_cancel_upper">취소</string>
+    <string name="msg_reject">아니요</string>
+    <string name="msg_or">또는</string>
+    <string name="msg_re_request">재요청</string>
+
+    <string name="msg_unknown">알 수 없음</string>
+    <string name="msg_none">없음</string>
+
+    <string name="msg_enable">사용</string>
+    <string name="msg_disable">해제</string>
+
+    <string name="msg_later">다음에</string>
+    <string name="msg_reSend">재전송</string>
+    <string name="msg_agree">동의하기</string>
+
+    <string name="msg_back">뒤로가기</string>
+    <string name="msg_next">다음으로</string>
+    <string name="msg_move_first">처음으로</string>
+
+    <string name="msg_stop_space">중 지</string>
+    <string name="msg_search_space">찾 기</string>
+    <string name="msg_save_space">저 장</string>
+    <string name="msg_save">저장</string>
+
+    <string name="msg_exit">종료</string>
+
+    <string name="msg_all">전체</string>
+    <string name="msg_details">상세</string>
+
+    <string name="msg_hour">%1$d시</string>
+    <string name="msg_hour_string">%1$s시</string>
+    <string name="msg_time_value">%1$s시 %2$s분 %3$s초</string>
+
+    <string name="msg_total_occ">전체 발생 횟수</string>
+    <string name="msg_avg_occ">평균 발생 횟수</string>
+    <string name="msg_hourly_occ">시간별 평균</string>
+    <string name="msg_daily_occ">일별 평균</string>
+    <string name="msg_monthly_occ">월별 평균</string>
+
+    <string name="msg_std_dev">표준 편차</string>
+    <string name="msg_max_std_dev">표준 편차(최대)</string>
+    <string name="msg_min_std_dev">표준 편차(최소)</string>
+
+    <!-- Dialog -->
+    <string name="dialog_notification">알림</string>
+    <string name="dialog_exit">종료하시겠습니까?</string>
+    <string name="dialog_save">저장되었습니다</string>
+    <string name="dialog_logout">정말 로그아웃 하시겠습니까?</string>
+    <string name="dialog_ready_func">기능 준비중입니다.</string>
+    <string name="dialog_update_app">앱 업데이트가 필요합니다.\n플레이 스토어에서 업데이트를 하시겠습니까?</string>
+
+    <!--    Error    -->
+    <string name="dialog_error_version">서버에서 버전을 확인하지 못했습니다.</string>
+    <string name="dialog_error_connect">서버에 연결할 수 없습니다. 잠시 후 다시 시도해 주세요.</string>
+    <string name="dialog_error_noData">데이터가 없습니다</string>
+    <string name="dialog_error_server">서버에서 데이터를 받아오지 못했습니다</string>
+    <string name="dialog_error_server_noData">서버에서 데이터를 확인하지 못했습니다.</string>
+    <string name="dialog_error_network">네트워크 오류가 발생했습니다.\n%1$s</string>
+    <string name="dialog_error_load_data">서버에서 데이터를 받아오지 못했습니다\n다시 로그인 해주세요.</string>
+
+    <!-- Navi -->
+    <string name="navi_home">홈</string>
+    <string name="navi_summary">요약</string>
+    <string name="navi_exercise">운동</string>
+    <string name="navi_arr">비정상맥박</string>
+    <string name="navi_profile">프로필</string>
+
+    <string name="navi_home_eng">Home</string>
+    <string name="navi_summary_eng">Summary</string>
+    <string name="navi_exercise_eng">Exercise</string>
+    <string name="navi_arr_eng">I.H.R.</string>
+    <string name="navi_profile_eng">Profile</string>
+
+    <!-- Status -->
+    <string name="msg_status_rest">휴식</string>
+    <string name="msg_status_exercise">활동</string>
+    <string name="msg_status_sleep">수면</string>
+
+    <!-- Ble -->
+    <string name="msg_ble_device_list">연결 가능한 기기</string>
+    <string name="msg_ble_device_connect">연결</string>
+    <string name="msg_ble_device_disconnect">해제</string>
+    <string name="msg_ble_device_scan">기기 찾기</string>
+    <string name="msg_ble_off">블루투스 꺼짐</string>
+
+    <string name="desc_ble_device_connect">%1$s\n연결하시겠습니까?</string>
+    <string name="desc_ble_always_connect">항상 연결</string>
+    <string name="desc_ble_disconnect">현재 연결된 기기를 해제하시겠습니까?</string>
+    <string name="desc_ble_disabled">블루투스가 꺼져 있습니다.\n블루투스를 켜주세요.</string>
+
+    <!-- Unit -->
+    <string name="unit_number">숫자</string>
+    <string name="unit_time">회</string>
+    <string name="unit_min">Min</string>
+    <string name="unit_max">Max</string>
+    <string name="unit_avg_cap">Avg</string>
+
+    <!-- Stress -->
+    <string name="label_unit_avg_sns">평균 교감신경</string>
+    <string name="label_unit_avg_pns">평균 부교감신경</string>
+
+    <string name="unit_sns">SNS</string>
+    <string name="unit_pns">PNS</string>
+
+
+
+    <!-- Temp -->
+    <string name="unit_temperature">°C</string>
+    <string name="msg_temperature">전극온도</string>
+    <string name="value_temperature">- °C</string>
+
+    <!-- Step -->
+    <string name="unit_step_cap">걸음</string>
+    <string name="unit_step">걸음수</string>
+    <string name="value_step">0 걸음</string>
+    <string name="label_hourly_steps">시간별 걸음수</string>
+    <string name="label_daily_steps">일별 걸음수</string>
+    <string name="label_monthly_steps">월별 걸음수</string>
+
+    <string name="value_steps">%1$d steps</string>
+
+    <!-- Distance -->
+    <string name="unit_travel_distance">이동거리</string>
+    <string name="unit_distance">거리</string>
+    <string name="unit_distance_km">km</string>
+    <string name="unit_distance_m">m</string>
+    <string name="value_distance">0.000 km</string>
+    <string name="label_hourly_distance">시간별 이동거리</string>
+    <string name="label_daily_distance">일별 이동거리</string>
+    <string name="label_monthly_distance">월별 이동거리</string>
+
+    <string name="value_distance_3f">%1$.3f km</string>
+
+    <!-- Bpm -->
+    <string name="unit_bpm_upper">BPM</string>
+    <string name="unit_bpm_low">bpm</string>
+    <string name="unit_bpm_cap">심박</string>
+    <string name="unit_bpm_avg">평균심박수</string>
+    <string name="unit_current_bpm">현재 심박수</string>
+
+    <!-- Calorie -->
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_tCal_cap">칼로리</string>
+
+    <string name="unit_calorie_burn">소모 칼로리</string>
+
+    <string name="unit_tCal">총 칼로리</string>
+    <string name="unit_tCal_newline">총 칼로리</string>
+
+    <string name="unit_eCal">활동 칼로리</string>
+    <string name="unit_eCal_newline">활동 칼로리</string>
+
+    <string name="value_eCal">0 kcal</string>
+    <string name="msg_eCal_abb">활동 칼로리</string>
+
+    <string name="value_calorie">%1$d kcal</string>
+
+    <string name="label_hourly_calorie">시간별 소모 칼로리</string>
+    <string name="label_hourly_active_calorie">시간별 활동 칼로리</string>
+
+    <string name="label_daily_calorie">일별 소모 칼로리</string>
+    <string name="label_daily_active_calorie">일별 활동 칼로리</string>
+
+    <string name="label_monthly_calorie">월별 소모 칼로리</string>
+    <string name="label_monthly_active_calorie">월별 활동 칼로리</string>
+
+    <!-- HRV -->
+    <string name="msg_hrv_eng">HRV</string>
+    <string name="unit_hrv_upper">맥박변동률</string>
+    <string name="unit_hrv_avg">평균변동률</string>
+    <string name="unit_hrv">ms</string>
+
+    <!--    Date    -->
+    <string name="unit_today">Today</string>
+    <string name="unit_twoDays">2 Days</string>
+    <string name="unit_threeDays">3 Days</string>
+
+    <string name="unit_day">Day</string>
+    <string name="unit_week">Week</string>
+    <string name="unit_month">Month</string>
+    <string name="unit_year">Year</string>
+
+    <!--    Day of the week    -->
+    <string name="unit_monday">월</string>
+    <string name="unit_tuesday">화</string>
+    <string name="unit_wednesday">수</string>
+    <string name="unit_thursday">목</string>
+    <string name="unit_friday">금</string>
+    <string name="unit_saturday">토</string>
+    <string name="unit_sunday">일</string>
+
+    <!--    Start    -->
+    <string name="msg_start">시작하기</string>
+    <string name="msg_welcome_eng">Welcome!</string>
+    <string name="desc_welcome">LOOKHEART 서비스 이용을 환영합니다.\n로그인하거나 회원가입하여 시작하세요!</string>
+
+    <!--    Guardian    -->
+    <string name="msg_guardian">보호자</string>
+    <string name="msg_set_guardian">보호자 설정</string>
+    <string name="msg_alert_guardian">보호자 알림</string>
+    <string name="dialog_guardian_phone">보호자 번호를 입력해주세요.</string>
+    <string name="dialog_valid_guardian">%1$s를 정확하게 입력해주세요.\n(6자리 이상의 숫자)</string>
+    <string name="dialog_delete_guardian">정말 보호자를 삭제 하시겠습니까?</string>
+
+    <!--    Login    -->
+    <string name="msg_login">로그인</string>
+    <string name="msg_login_eng">Login</string>
+    <string name="msg_quick_login">빠른 로그인</string>
+    <string name="msg_google_login">Google로 로그인</string>
+
+    <string name="msg_email">아이디</string>
+    <string name="msg_password">비밀번호</string>
+    <string name="msg_autoLogin">자동로그인</string>
+    <string name="msg_find_email_password">비밀번호를 잊으셨나요?</string>
+
+    <string name="desc_login">LOOKHEART 서비스 이용을 환영합니다.\n가입하신 아이디와 비밀번호를 입력하세요.</string>
+    <string name="desc_login_hint">계정에 로그인하기 위해 정보를 입력해 주세요.</string>
+    <string name="desc_signup">LOOKHEART 이용이 처음이신가요?</string>
+    <string name="desc_select_birthday">생년월일을 선택해주세요.</string>
+    <string name="desc_select_date">날짜를 선택해주세요.</string>
+
+    <string name="dialog_social_login">로그인 중 오류가 발생했습니다.\n다시 시도해주세요.</string>
+    <string name="dialog_social_signUp">계정이 존재하지 않습니다.\n회원가입을 하시겠습니까?</string>
+    <string name="dialog_cannot_found_phoneNumbe">핸드폰 번호를 찾을 수 없습니다.\n다시 시도해주세요.</string>
+    <string name="dialog_incorrect_email_password">이메일 또는 비밀번호의 형식이 잘못되었습니다.\n올바른 형식을 사용하여 다시 시도해 주세요.</string>
+    <string name="dialog_incorrect_password">입력하신 비밀번호 형식이 올바르지 않습니다.\n대문자, 소문자, 숫자, 특수문자를 포함한\n 10자리 이상의 비밀번호</string>
+    <string name="dialog_fail_login">로그인에 실패했습니다.\n이메일과 비밀번호를 다시 확인해 주세요.</string>
+
+    <!--    Change Password & Find Email    -->
+    <string name="label_find_email_password">아이디 및 비밀번호 찾기</string>
+    <string name="hint_find_email_first">아이디 찾기는</string>
+    <string name="hint_find_email_second">* 핸드폰 인증 *</string>
+    <string name="hint_find_email_third">완료 사용자만 가능합니다.</string>
+    <string name="hint_select_auth">가입 시 선택한 인증 방식을 사용해 주세요.</string>
+    <string name="hint_find_email">이름과 생년월일을 정확히 입력해 주세요.</string>
+    <string name="hint_change_password">새 비밀번호를 설정하려면 아래 양식을 작성해 주세요.</string>
+
+    <string name="msg_find_email">아이디 찾기</string>
+    <string name="msg_phone_number">핸드폰 번호</string>
+    <string name="desc_find_email">본인 확인을 위해 필요한 정보를 입력해 주세요.</string>
+    <string name="desc_change_password">보안을 위해 비밀번호를 업데이트하세요.</string>
+    <string name="dialog_fail_change_password">비밀번호 변경 실패</string>
+
+    <string name="dialog_cancel_find_email">아이디 찾기를 취소하시겠습니까?</string>
+    <string name="dialog_cancel_find_password">비밀번호 찾기를 취소하시겠습니까?</string>
+
+
+    <!--    Sign Up    -->
+    <string name="msg_signup">회원가입</string>
+    <string name="msg_signup_value">회원가입%1$s</string>
+    <string name="msg_input_email">아이디 입력</string>
+    <string name="msg_input_password">비밀번호 입력</string>
+    <string name="msg_reEnter_password">비밀번호 재입력</string>
+    <string name="msg_name">이름</string>
+    <string name="msg_first_name">이름</string>
+    <string name="msg_last_name">성</string>
+    <string name="msg_height_value_unit">%1$scm</string>
+    <string name="msg_weight_value_unit">%1$skg</string>
+    <string name="msg_height_unit">cm</string>
+    <string name="msg_weight_unit">kg</string>
+    <string name="msg_male">남성</string>
+    <string name="msg_female">여성</string>
+    <string name="msg_birthday">생년월일</string>
+
+    <string name="desc_enter_name">성과 이름을 입력해주세요!</string>
+    <string name="desc_enter_height_weight">키와 몸무게를 입력해주세요!</string>
+    <string name="desc_enter_gender">성별을 선택해주세요!</string>
+    <string name="desc_enter_birthday">생년월일을 선택해주세요!</string>
+    <string name="desc_enter_account">이메일과 비밀번호를 입력해주세요!</string>
+
+    <string name="desc_enter_email">이메일을 입력하세요.</string>
+    <string name="desc_enter_password">비밀번호를 입력하세요.</string>
+    <string name="desc_re_enter_password">비밀번호를 다시 입력해 주세요.</string>
+    <string name="desc_valid_password">대문자, 소문자, 숫자, 특수문자를 포함한 10자리 이상의 비밀번호</string>
+    <string name="desc_height">신장을 입력해주세요!</string>
+    <string name="desc_weight">몸무게를 입력해주세요!</string>
+    <string name="desc_gender">성별을 선택해주세요.</string>
+    <string name="desc_auth_email">인증된 이메일입니다.</string>
+
+    <string name="dialog_valid_name">올바른 이름을 입력해주세요.</string>
+    <string name="dialog_valid_password_abb">대문자, 숫자, 특수문자를 포함한 비밀번호</string>
+    <string name="dialog_valid_reEnter_password">비밀번호가 일치하지 않습니다</string>
+    <string name="dialog_not_agree">약관을 끝까지 읽고 동의해 주세요.</string>
+    <string name="dialog_dup_email">존재하는 이메일입니다.</string>
+    <string name="dialog_move_login">로그인 페이지로 돌아갑니다.</string>
+    <string name="dialog_move_home">홈 화면으로 이동합니다.</string>
+    <string name="dialog_check_email">이메일 형식을 확인해주세요.</string>
+    <string name="dialog_complete_signup">가입완료</string>
+    <string name="dialog_enter_real_email">사용중인 실제 이메일을 입력해주세요.</string>
+    <string name="dialog_valid_email">유효한 이메일을 입력해주세요</string>
+    <string name="dialog_valid_email_ex">올바른 이메일 주소를 입력하세요.\n(예: lookheart@msl.co.kr)</string>
+
+    <!--    Arr    -->
+    <string name="unit_arr_abb">비정상맥박</string>
+    <string name="unit_arr_abb_newline">비정상\n맥박</string>
+    <string name="unit_arr_times">비정상맥박\n(times/Day)</string>
+    <string name="unit_current_arr">현재 부정맥</string>
+
+    <string name="msg_arr_status">상태</string>
+    <string name="msg_arr_type">종류</string>
+    <string name="msg_arr_emergency">응급상황: </string>
+
+    <string name="msg_type_arr">비정상 맥박</string>
+    <string name="msg_type_fast_arr">빠른 맥박</string>
+    <string name="msg_type_slow_arr">느린 맥박</string>
+    <string name="msg_type_heavy_arr">불규칙 맥박</string>
+    <string name="msg_type_total_arr">비정상맥박(통합)</string>
+    <string name="msg_type_hourly_arr">시간별 비정상맥박</string>
+    <string name="msg_type_daily_arr">일별 비정상맥박</string>
+    <string name="msg_type_monthly_arr">월별 비정상맥박</string>
+    <string name="msg_type_hourly_emergency">시간별 응급상황</string>
+    <string name="msg_avg_monthly_arr">지난 한 달 평균 부정맥</string>
+
+    <!--    Arr: Noti Title & Body    -->
+    <string name="dialog_arr">비정상맥박 발생!\n</string>
+    <string name="dialog_fast_arr">빠른맥박 발생!\n</string>
+    <string name="dialog_slow_arr">느린맥박 발생!\n</string>
+    <string name="dialog_heavy_arr">연속적인 비정상맥박!\n</string>
+    <string name="dialog_time">"시간 : "</string>
+    <string name="dialog_myo">근전도 발생!\n</string>
+    <string name="dialog_nonContact">전극떨어짐 발생!\n</string>
+    <string name="dialog_total_arr">비정상맥박 %1$d회 발생!</string>
+    <string name="dialog_hourly_arr">시간별 %1$d회 발생!</string>
+
+    <string-array name="dialog_arr_body">
+        <item>당신의 마음이 평화를 찾을 수 있도록,\n잠시 멈추고 휴식을 취하세요.</item>
+        <item>매일의 작은 휴식이,\n삶의 질을 높이는 열쇠입니다.</item>
+        <item>바쁜 일상 속에서도,\n작은 휴식이 큰 변화를 가져옵니다.</item>
+        <item>스트레스는 놓아주고,\n평안을 마음속에 채우세요.</item>
+        <item>잠깐 휴식시간을 가져보시는게 어떨까요?</item>
+        <item>작은 휴식은 큰 힘이 됩니다.</item>
+        <item>마음의 여유를 가져보세요.</item>
+        <item>휴식은 시간 낭비가 아닙니다.\n스스로를 위한 가장 큰 투자입니다.</item>
+    </string-array>
+
+    <!--    Arr: Alert Title & Body    -->
+    <string name="dialog_total_arr_title">오늘 하루 비정상 맥박이 %1$d회 발생하였습니다!\n</string>
+    <string name="dialog_hourly_arr_title">1시간 동안 비정상 맥박이 %1$d회 발생하였습니다!\n</string>
+
+    <string-array name="dialog_total_hourly_arr_body">
+        <item>때로는 아무것도 하지 않는 것이,\n가장 많은 것을 하는 것입니다.\n마음의 여유를 가져보세요.</item>
+        <item>바쁜 하루 속, 짧은 휴식도 큰 선물이 될 수 있습니다.\n잠시 자리에서 일어나 스트레칭을 해보세요.</item>
+        <item>잠시 멈추어 깊게 숨을 쉬고, 주변을 둘러보세요.\n작은 휴식이 큰 힘이 됩니다.</item>
+        <item>잠깐의 휴식이 마음을 재충전하는 데\n큰 도움이 될 거예요.</item>
+        <item>모든 것을 잠시 내려놓고,\n오늘만큼은 나 자신에게 휴식을 선물하세요.</item>
+        <item>당신도 쉴 권리가 있어요.\n오늘은 스스로를 위한 시간을 가져보세요.</item>
+        <item>당신의 마음도 쉴 필요가 있어요.\n잠시 멈추고, 내면의 목소리에\n귀 기울여 보세요.</item>
+        <item>끊임없는 열정도 좋지만,\n때로는 쉬어가며\n거리를 두는 것이 필요합니다.</item>
+    </string-array>
+
+    <!-- Emergency -->
+    <string name="msg_emergency">응급상황</string>
+    <string name="msg_emergency_alert">응급상황</string>
+    <string name="msg_emergency_space">응급 상황</string>
+    <string name="dialog_emergency_complete_send">전송 완료</string>
+    <string name="dialog_emergency_complete_booked">예약 완료</string>
+    <string name="dialog_emergency_failed_send">전송 실패</string>
+    <string name="dialog_emergency_sending">전송 중..</string>
+    <string name="dialog_emergency_empty_guardian">즉시 119로 신고하거나 가까운 병원으로 이동하세요.</string>
+    <string name="dialog_emergency_guardian">현재 위치가 보호자에게 전송되었습니다. 즉시 확인해 주세요.</string>
+    <string name="dialog_emergency_send">보호자에게 알림이 발송됩니다.\n취소하려면 버튼을 눌러주세요.</string>
+    <string name="dialog_emergency_send_offline">네트워크 복원 후\n보호자에게 알림이 전송됩니다.\n취소하려면 버튼을 눌러주세요.</string>
+    <string name="dialog_emergency_retrieve_location">위치 정보를 확인할 수 없습니다.</string>
+
+    <!--    Profile    -->
+    <string name="msg_sir">님</string>
+    <string name="msg_age">나이</string>
+    <string name="msg_height">신장</string>
+    <string name="msg_weight">몸무게</string>
+    <string name="msg_gender">성별</string>
+    <string name="msg_basic">기본정보</string>
+    <string name="msg_target">목표량</string>
+    <string name="msg_setting">설정</string>
+    <string name="msg_menu">메뉴</string>
+    <string name="msg_email_template">◦ %1$s</string>
+    <string name="msg_joinDate">가입일</string>
+    <string name="msg_find_password">비밀번호 찾기</string>
+    <string name="msg_logout">로그아웃</string>
+    <string name="msg_target_step">목표 걸음수</string>
+    <string name="msg_target_distance">목표 이동거리</string>
+    <string name="msg_target_aCal">목표 총 칼로리</string>
+    <string name="msg_target_cal">목표 활동 칼로리</string>
+    <string name="msg_sleep">취침시간</string>
+    <string name="msg_wakeup">기상시간</string>
+    <string name="msg_help_notification">활동 알림 설정</string>
+    <string name="msg_help_guardian_notification">보호자 알림 기능</string>
+    <string name="msg_help_guardian_arr_number">알림발생 기준 횟수</string>
+    <string name="msg_phone">휴대폰 번호(\'-\'제외)</string>
+    <string name="msg_bpm">활동 기준 bpm</string>
+    <string name="msg_myo">근전도</string>
+    <string name="msg_nonContact">전극떨어짐</string>
+    <string name="msg_guardianNumber1">보호자 연락처</string>
+    <string name="msg_guardianNumber2">보호자 연락처2(\'-\'제외)</string>
+    <string name="msg_change_Password">비밀번호 변경</string>
+
+    <string name="msg_delete_app_data">내부 데이터 삭제</string>
+    <string name="msg_privacy_policy">개인정보처리방침</string>
+    <string name="msg_terms_service">서비스 이용약관</string>
+
+    <string name="msg_legal_other">법적 정보 및 기타</string>
+
+    <string name="desc_first_name">이름을 입력해주세요!</string>
+    <string name="desc_last_name">성을 입력해주세요!</string>
+    <string name="desc_help_info">입력하신 개인정보는\n암호화되어 안전하게 관리합니다.</string>
+    <string name="desc_help_target">나에게 맞는 기준을 설정하고,\n매일의 건강 목표를 달성해보세요.</string>
+    <string name="desc_help_guardian">비정상맥박이 기준 횟수 이상 발생 시,\n보호자 앱이 설치된 보호자에게 알림을 전송합니다.</string>
+    <string name="desc_help_bpm">성인 평균 활동 기준은 bpm 90입니다.</string>
+
+    <string name="desc_valid_first_name">올바른 이름을 입력해주세요.</string>
+    <string name="desc_valid_last_name">올바른 성을 입력해주세요.</string>
+    <string name="desc_valid_height">올바른 신장을 입력해주세요.</string>
+    <string name="desc_valid_weight">올바른 몸무게을 입력해주세요.</string>
+
+    <string name="desc_set_bed_time">취침시간을 설정해주세요!</string>
+    <string name="desc_set_wake_time">기상시간을 설정해주세요!</string>
+
+    <string name="desc_success_verify">인증 완료</string>
+
+    <string name="dialog_valid_data">올바른 입력을 해주세요.</string>
+
+
+    <!-- Delete Account -->
+    <string name="msg_delete_account">회원탈퇴</string>
+    <string name="msg_privacy">개인정보 및 파기</string>
+    <string name="msg_service_log">서비스 이용 기록</string>
+    <string name="msg_reSignUp">재가입</string>
+    <string name="msg_account_delete_agree">모두 동의</string>
+
+    <string name="desc_email_example">예: lookheart@msl.co.kr</string>
+    <string name="desc_privacy">회원님의 개인정보는 (주)MSL(GREBT)의 개인정보 처리방침에 따라 처리됩니다.\n개인정보는 법령에서 정한 기간 동안만 보관되며\n그 후 즉시 파기됩니다.</string>
+    <string name="desc_service_log">법령에 의해 보존 필요성이 있는 경우(거래 기록 등),\n해당 정보는 법령에서 정한 기간 동안 보관됩니다.\n이는 서비스 이용에 대한 기록 보존이 필요한 경우에 한하여 적용됩니다.</string>
+    <string name="desc_reSignIp">회원탈퇴 후 재가입하더라도\n탈퇴 전의 회원정보, 거래정보 등은 복구되지 않습니다.</string>
+    <string name="desc_notes">자세한 사항은 LOOKHEART 개인정보 처리방침에서\n확인하실 수 있습니다.</string>
+    <string name="desc_account_delete_agree">유의사항을 모두 확인하였으며, 적용 사항에 모두 동의합니다.</string>
+    <string name="desc_account_delete">LOOKHEART를 탈퇴하기 전에\n아래 정보를 꼭 확인해주세요</string>
+
+    <string name="dialog_account_delete">정말 탈퇴하시겠습니까?</string>
+    <string name="dialog_completed_delete">계정 삭제 완료</string>
+    <string name="dialog_failer_delete">계정 삭제 실패</string>
+    <string name="dialog_notExist_email">아이디가 존재하지 않습니다.</string>
+    <string name="dialog_validate_data">유효한 %1$s을 입력해주세요.</string>
+    <string name="dialog_valid_password">비밀번호가 요구 조건에 맞지 않습니다.</string>
+    <string name="dialog_valid_reEnter">비밀번호가 일치하지 않습니다.</string>
+
+    <!--    Auth    -->
+    <string name="unit_email_address">이메일 주소</string>
+    <string name="unit_email">이메일 인증</string>
+    <string name="unit_success_send_email">이메일 전송 완료!</string>
+    <string name="unit_phone_number">핸드폰 인증</string>
+    <string name="msg_verification">본인인증</string>
+    <string name="msg_verify_number">인증 번호 :</string>
+    <string name="value_country_code">%1$s(%2$d)</string>
+
+    <string name="desc_auth">서비스 이용을 위한 본인 확인 절차입니다.\n계속하려면 인증을 진행해 주세요.</string>
+
+    <string name="dialog_select_auth">본인 확인을 위해 다음 중 하나의 방법을 선택해주세요.\n선택한 방법으로 인증 절차를 진행하실 수 있습니다.</string>
+    <string name="dialog_auth_email_help">회원님의 계정을 안전하게 보호하기 위해 이메일 인증을 완료해 주세요.\n이메일을 입력하고 버튼을 클릭하시면 인증 이메일이 발송됩니다.</string>
+    <string name="dialog_send_auth_email_help">인증 이메일 전송</string>
+
+    <string name="dialog_success_send_auth_email_help_1">이메일 전송이 완료되었습니다!</string>
+    <string name="dialog_success_send_auth_email_help_2">이메일에 포함된</string>
+    <string name="dialog_success_send_auth_email_help_3">\"인증하기\"</string>
+    <string name="dialog_success_send_auth_email_help_4">버튼을 눌러 본인 인증을 완료해 주세요.</string>
+    <string name="dialog_success_send_auth_email_help_5">※ 이메일이 도착하지 않으셨다면 스팸 메일함을 확인하시거나 다시 요청해 주세요.</string>
+
+    <string name="dialog_help_select_country">국가를 선택해주세요.</string>
+    <string name="dialog_auth_country_code">국가 코드</string>
+    <string name="dialog_cancel_auth">본인 인증 과정을 취소하시겠습니까?</string>
+    <string name="dialog_cancel_signup">회원가입을 정말로 취소하시겠습니까?</string>
+    <string name="dialog_resend_number">◦ 인증번호가 전송되지 않을 경우 재전송 버튼을 눌러주세요.</string>
+    <string name="dialog_verify">인증 요청</string>
+    <string name="dialog_success_verify">인증 완료</string>
+    <string name="dialog_failed_verify">인증에 실패했습니다. 다시 시도해주세요.</string>
+
+    <string name="dialog_time_help">◦ 3분 이내로 인증번호를 입력해 주세요.</string>
+    <string name="dialog_auth_phone_help">6자리의 인증번호를 입력해주세요.</string>
+    <string name="dialog_dup_phoneNumber_help">아이디가 존재하는 번호입니다.</string>
+    <string name="dialog_reSend_help">번호를 수정 하시겠습니까?</string>
+    <string name="dialog_exceeded_verification_help">하루 인증 횟수가 초과 되었습니다.</string>
+    <string name="dialog_sendVerification_help">인증번호를 전송하였습니다.</string>
+    <string name="dialog_confirmVerification_help">인증번호를 다시 확인해주세요.</string>
+    <string name="dialog_auth_time_over">요청시간이 초과되었습니다.\n다시 시도해주세요.</string>
+    <string name="dialog_setupGuardian_help">핸드폰 번호를 정확하게 입력해주세요</string>
+    <string name="dialog_find_email_help">아이디 찾기 결과</string>
+    <string name="dialog_not_found_email">입력하신 정보에 해당하는\n아이디를 찾을 수 없습니다.</string>
+    <string name="dialog_copy_email">이메일이 복사되었습니다.</string>
+    <string name="dialog_change_password_help">비밀번호 변경 완료</string>
+
+    <!--    Chart    -->
+    <string name="value_chart_plus">+%1$d</string>
+    <string name="value_chart_minus">-%1$d</string>
+    <string name="value_chart_data">%1$s %2$s</string>
+    <string name="value_chart_percent">%1$d%%</string>
+
+    <!--    Permission    -->
+    <string name="dialog_permission_battery">배터리 최적화 비활성화 필요</string>
+    <string name="dialog_permission_battery_help">LOOKHEART 앱이 백그라운드에서\n안정적으로 데이터를 전송할 수 있도록\n배터리 최적화 설정에서 제외해 주세요.</string>
+    <string name="dialog_permission_ble">근처 기기</string>
+    <string name="dialog_permission_location">위치</string>
+    <string name="dialog_permission_denied_permission">LOOKHEART 앱을 사용하려면\n다음 필수 권한을 허용해 주세요.\n◦ 근처 기기\n◦ 위치 정보</string>
+
+    <!--    Exercise    -->
+    <string name="value_exercise_timer">%1$d</string>
+    <string name="msg_exercise_timer">운동 시간</string>
+    <string name="msg_exercise_cnt">운동 횟수</string>
+
+    <string name="msg_exercise_record_eng">Record</string>
+    <string name="msg_exercise_start_eng">START</string>
+    <string name="msg_exercise_back_eng">BACK</string>
+    <string name="msg_exercise_delete_eng">DELETE</string>
+
+    <string name="msg_date">날짜</string>
+    <string name="msg_time">시간</string>
+
+    <string name="msg_exercise_type">운동 :</string>
+    <string name="msg_exercise_time">시간 :</string>
+
+    <string name="msg_exercise_avg_bpm">평균\n심박수</string>
+    <string name="msg_exercise_min">최소</string>
+    <string name="msg_exercise_max">최대</string>
+
+    <string name="msg_step_eng_row">step</string>
+    <string name="msg_steps_eng_row">steps</string>
+    <string name="msg_times_eng_row">count</string>
+    <string name="msg_exercise_activity_calorie">활동 칼로리</string>
+    <string name="msg_exercise_calorie_newline">활동\n칼로리</string>
+
+    <string name="dialog_start_exercise">운동을 시작하시겠습니까?</string>
+    <string name="dialog_save_exercise">운동을 기록하시겠습니까?</string>
+
+    <string name="dialog_prev_noData">이전 데이터가 존재하지 않습니다.</string>
+    <string name="dialog_next_noData">다음 데이터가 존재하지 않습니다.</string>
+    <string name="dialog_delete_help">정말 삭제하시겠습니까?</string>
+
+    <string name="dialog_comp_delete">삭제 완료</string>
+    <string name="dialog_fail_delete">삭제 실패</string>
+    <string name="dialog_add">추가</string>
+    <string name="dialog_remove">제거</string>
+
+    <string name="dialog_fav_eng">FAVS</string>
+    <string name="dialog_list_eng">LIST</string>
+
+    <string name="dialog_add_favorite">즐겨찾기에 추가하시겠습니까?</string>
+    <string name="dialog_delete_favorite">즐겨찾기에서 제거하시겠습니까?</string>
+
+    <string name="desc_search_select_exercise">운동을 검색하거나 선택하세요</string>
+    <string name="desc_add_exercise">즐겨찾기 추가</string>
+    <string name="desc_add_exercise_name">추가할 운동 이름을 입력해주세요.</string>
+
+    <string name="exercise_ball">구기 종목</string>
+    <string name="exercise_bike">자전거</string>
+    <string name="exercise_crossfit">크로스핏</string>
+    <string name="exercise_floor">계단 오르기</string>
+    <string name="exercise_handball">핸드볼</string>
+    <string name="exercise_hiking">등산</string>
+    <string name="exercise_interval">인터벌</string>
+    <string name="exercise_jump">줄넘기</string>
+    <string name="exercise_kayaking">카약</string>
+    <string name="exercise_pilates">필라테스</string>
+    <string name="exercise_pool">수영</string>
+    <string name="exercise_rowing">조정</string>
+    <string name="exercise_run">뛰기</string>
+    <string name="exercise_scuba">스쿠버 다이빙</string>
+    <string name="exercise_skateboarding">스케이트 보드</string>
+    <string name="exercise_skiing">스키</string>
+    <string name="exercise_strength">근력 운동</string>
+    <string name="exercise_stretching">스트레칭</string>
+    <string name="exercise_surfing">서핑</string>
+    <string name="exercise_walk">걷기</string>
+    <string name="exercise_yoga">요가</string>
+
+    <!--    Stress    -->
+    <string name="unit_stress">스트레스</string>
+    <string name="unit_stress_upper">스트레스</string>
+    <string name="unit_stress_score">Score</string>
+    <string name="unit_stress_high">높음</string>
+    <string name="hint_stress">5분 간격으로 측정</string>
+    <string name="hint_measuring_stress">측정중</string>
+
+    <!--    Error Message    -->
+    <string name="error_no_data">현재 표시할 데이터가 없습니다.</string>
+    <string name="error">알 수 없는 오류가 발생했습니다.\n나중에 다시 시도해 주세요.</string>
+    <string name="error_timeout">요청 시간이 초과되었습니다.\n인터넷 연결을 확인하고 다시 시도해 주세요.</string>
+    <string name="error_io">네트워크 오류가 발생했습니다.\n인터넷 연결을 확인하고 다시 시도해 주세요.</string>
+    <string name="error_unauthorized">권한이 없습니다.\n다시 로그인하고 시도해 주세요.</string>
+    <string name="error_forbidden">이 작업을 수행할 권한이 없습니다.</string>
+    <string name="error_not_found">요청하신 내용을 찾을 수 없습니다.\n다시 시도해 주세요.</string>
+    <string name="error_server">서버에 문제가 발생했습니다.\n나중에 다시 시도해 주세요.</string>
+    <string name="error_http">예기치 않은 오류가 발생했습니다.\n나중에 다시 시도해 주세요.</string>
+</resources>

@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LOOKHEART</string>
+
+    <!-- TERMS -->
+    <string name="terms_agree">agree_cn.txt</string>
+    <string name="terms_privacy">privacy_cn.txt</string>
+
+    <!-- MSG -->
+    <string name="msg_ok">确认</string>
+    <string name="msg_cancel_upper">取消</string>
+    <string name="msg_reject">取消</string>
+    <string name="msg_or">或者</string>
+    <string name="msg_re_request">重新请求</string>
+
+    <string name="msg_unknown">未知</string>
+    <string name="msg_none">无</string>
+
+    <string name="msg_enable">使用</string>
+    <string name="msg_disable">关闭</string>
+
+    <string name="msg_later">稍后</string>
+    <string name="msg_reSend">重新发送</string>
+    <string name="msg_agree">同意</string>
+
+    <string name="msg_back">返回</string>
+    <string name="msg_next">下一步</string>
+    <string name="msg_move_first">首页</string>
+
+    <string name="msg_stop_space">停止</string>
+    <string name="msg_search_space">寻找</string>
+    <string name="msg_save_space">保存</string>
+    <string name="msg_save">保存</string>
+
+    <string name="msg_exit">关闭</string>
+
+    <string name="msg_all">全部</string>
+    <string name="msg_details">详情</string>
+
+    <string name="msg_hour">%1$d时</string>
+    <string name="msg_hour_string">%1$s时</string>
+    <string name="msg_time_value">%1$s时 %2$s分 %3$s秒</string>
+
+    <string name="msg_total_occ">总发生次数</string>
+    <string name="msg_avg_occ">平均发生次数</string>
+    <string name="msg_hourly_occ">每小时平均</string>
+    <string name="msg_daily_occ">每日平均</string>
+    <string name="msg_monthly_occ">每月平均</string>
+
+    <string name="msg_std_dev">标准差</string>
+    <string name="msg_max_std_dev">最大标准差</string>
+    <string name="msg_min_std_dev">最小标准差</string>
+
+    <!-- Dialog -->
+    <string name="dialog_notification">通知</string>
+    <string name="dialog_exit">确定关闭吗？</string>
+    <string name="dialog_save">已保存。</string>
+    <string name="dialog_logout">您确定要登出吗？</string>
+    <string name="dialog_ready_func">功能正在准备中。</string>
+    <string name="dialog_update_app">需要更新应用。\n您想要在Play商店中更新它吗？</string>
+    <string name="dialog_emergency_send">将向监护人发送通知。\n按按钮取消。</string>
+    <string name="dialog_emergency_send_offline">网络恢复后，\n将向监护人发送通知。\n按按钮取消。</string>
+    <string name="dialog_emergency_retrieve_location">无法获取位置信息。</string>
+
+    <!--    Error    -->
+    <string name="dialog_error_version">服务器无法验证版本。</string>
+    <string name="dialog_error_connect">无法连接到服务器。请稍后再试。</string>
+    <string name="dialog_error_noData">没有数据</string>
+    <string name="dialog_error_server">无法从服务器获取数据</string>
+    <string name="dialog_error_server_noData">无法从服务器检索数据</string>
+    <string name="dialog_error_network">发生了网络错误。\n%1$s</string>
+    <string name="dialog_error_load_data">与服务器的连接出现问题。\n请重新登录。</string>
+
+    <!-- Navi -->
+    <string name="navi_home">首页</string>
+    <string name="navi_summary">摘要</string>
+    <string name="navi_exercise">锻炼</string>
+    <string name="navi_arr">异常脉搏</string>
+    <string name="navi_profile">个人资料</string>
+
+    <string name="navi_home_eng">Home</string>
+    <string name="navi_summary_eng">Summary</string>
+    <string name="navi_exercise_eng">Exercise</string>
+    <string name="navi_arr_eng">I.H.R.</string>
+    <string name="navi_profile_eng">Profile</string>
+
+    <!-- Status -->
+    <string name="msg_status_rest">休息</string>
+    <string name="msg_status_exercise">活动</string>
+    <string name="msg_status_sleep">睡眠</string>
+
+    <!-- Ble -->
+    <string name="msg_ble_device_list">可连接设备</string>
+    <string name="msg_ble_device_connect">连接</string>
+    <string name="msg_ble_device_disconnect">解除</string>
+    <string name="msg_ble_device_scan">查找设备</string>
+    <string name="msg_ble_off">蓝牙关闭</string>
+
+    <string name="desc_ble_device_connect">您要连接\n%1$s吗？</string>
+    <string name="desc_ble_always_connect">始终连接</string>
+    <string name="desc_ble_disconnect">您要断开此设备的连接吗？</string>
+    <string name="desc_ble_disabled">蓝牙关闭。\n请开启。</string>
+
+    <!-- Unit -->
+    <string name="unit_number">数字</string>
+    <string name="unit_time">次</string>
+    <string name="unit_min">最小</string>
+    <string name="unit_max">最大</string>
+    <string name="unit_avg_cap">Avg</string>
+
+    <!-- Stress -->
+    <string name="label_unit_avg_sns">平均交感神经</string>
+    <string name="label_unit_avg_pns">平均副交感神经</string>
+
+    <string name="unit_pns">PNS</string>
+    <string name="unit_sns">SNS</string>
+
+    <!-- Temp -->
+    <string name="unit_temperature">摄氏度</string>
+    <string name="msg_temperature">电极温度</string>
+    <string name="value_temperature">- 摄氏度</string>
+
+    <!-- Step -->
+    <string name="unit_step_cap">步伐</string>
+    <string name="unit_step">步数</string>
+    <string name="value_step">0 步伐</string>
+    <string name="label_hourly_steps">每小时步数</string>
+    <string name="label_daily_steps">每日步数</string>
+    <string name="label_monthly_steps">每月步数</string>
+
+    <string name="value_steps">%1$d 步数</string>
+
+    <!-- Distance -->
+    <string name="unit_travel_distance">移动距离</string>
+    <string name="unit_distance_km">公里</string>
+    <string name="unit_distance_m">米</string>
+    <string name="unit_distance">距离</string>
+    <string name="value_distance">0.000 公里</string>
+    <string name="label_hourly_distance">每小时移动距离</string>
+    <string name="label_daily_distance">每日移动距离</string>
+    <string name="label_monthly_distance">每月移动距离</string>
+
+    <string name="value_distance_3f">%1$.3f 公里</string>
+
+    <!-- Bpm -->
+    <string name="unit_bpm_upper">BPM</string>
+    <string name="unit_bpm_low">心率</string>
+    <string name="unit_bpm_cap">心率</string>
+    <string name="unit_bpm_avg">平均的</string>
+    <string name="unit_current_bpm">当前心率</string>
+
+    <!-- Calorie -->
+    <string name="unit_tCal_cap">卡路里</string>
+    <string name="unit_kcal">千卡</string>
+
+    <string name="unit_calorie_burn">消耗卡路里</string>
+
+    <string name="unit_tCal">总热量</string>
+    <string name="unit_tCal_newline">总热量</string>
+
+    <string name="unit_eCal">运动消耗卡路里</string>
+    <string name="unit_eCal_newline">活动卡路里</string>
+
+    <string name="value_eCal">0 千卡</string>
+    <string name="msg_eCal_abb">运动消耗卡路里</string>
+
+    <string name="value_calorie">%1$d 千卡</string>
+
+    <string name="label_hourly_calorie">每小时消耗卡路里</string>
+    <string name="label_hourly_active_calorie">每小时活动卡路里</string>
+
+    <string name="label_daily_calorie">每日消耗卡路里</string>
+    <string name="label_daily_active_calorie">每日活动卡路里</string>
+
+    <string name="label_monthly_calorie">每月消耗卡路里</string>
+    <string name="label_monthly_active_calorie">每月活动卡路里</string>
+
+    <!-- HRV -->
+    <string name="msg_hrv_eng">心率变</string>
+    <string name="unit_hrv_upper">心率变异性</string>
+    <string name="unit_hrv_avg">平均的</string>
+    <string name="unit_hrv">毫秒</string>
+
+    <!--    Date    -->
+    <string name="unit_today">今天</string>
+    <string name="unit_twoDays">2 天</string>
+    <string name="unit_threeDays">3 天</string>
+
+    <string name="unit_day">天</string>
+    <string name="unit_week">星期</string>
+    <string name="unit_month">月</string>
+    <string name="unit_year">年</string>
+
+    <!--    Day of the week    -->
+    <string name="unit_monday">周一</string>
+    <string name="unit_tuesday">周二</string>
+    <string name="unit_wednesday">周三</string>
+    <string name="unit_thursday">周四</string>
+    <string name="unit_friday">周五</string>
+    <string name="unit_saturday">周六</string>
+    <string name="unit_sunday">周日</string>
+
+    <!--    Start    -->
+    <string name="msg_start">开始</string>
+    <string name="msg_welcome_eng">欢迎！</string>
+    <string name="desc_welcome">欢迎使用LOOKHEART\n请登录或注册以开始！</string>
+
+    <!--    Guardian    -->
+    <string name="msg_guardian">监护人</string>
+    <string name="msg_set_guardian">监护人设置</string>
+    <string name="msg_alert_guardian">监护人通知</string>
+    <string name="dialog_guardian_phone">请输入监护人的电话号码。</string>
+    <string name="dialog_valid_guardian">请正确输入%1$s。\n(6位或以上的数字)</string>
+    <string name="dialog_delete_guardian">您确定要删除监护人吗？</string>
+
+    <!--    Login    -->
+    <string name="msg_login">登录</string>
+    <string name="msg_login_eng">Login</string>
+    <string name="msg_quick_login">快速登录</string>
+    <string name="msg_google_login">通过Google登录</string>
+
+    <string name="msg_email">请输入邮箱地址</string>
+    <string name="msg_password">密码</string>
+    <string name="msg_autoLogin">自动登录</string>
+    <string name="msg_find_email_password">忘记密码了吗？</string>
+
+    <string name="desc_login">欢迎使用LOOKHEART\n请输入用户名与密码</string>
+    <string name="desc_login_hint">使用您的电子邮件和密码登录。</string>
+    <string name="desc_signup">您是第一次使用LOOKHEART吗?</string>
+    <string name="desc_select_birthday">请选择您的出生日期。</string>
+    <string name="desc_select_date">请选择日期。</string>
+
+    <string name="dialog_social_login">登录时发生错误。\n请再试一次。</string>
+    <string name="dialog_social_signUp">未找到账号。\n您要创建一个吗？</string>
+    <string name="dialog_cannot_found_phoneNumbe">找不到手机号。\n请再试一次。</string>
+    <string name="dialog_incorrect_email_password">您的电子邮件或密码格式不正确。\n请使用正确的格式并重试。</string>
+    <string name="dialog_incorrect_password">您输入的密码格式不正确。\n请设置包含大小写字母，数字和特殊符号等10位数以上的密码。</string>
+    <string name="dialog_fail_login">登录失败。\n请检查您的电子邮件和密码，然后再试一次。</string>
+
+    <!--    Change Password & Find Email    -->
+    <string name="label_find_email_password">账号/密码恢复</string>
+    <string name="hint_find_email_first">账号查找是</string>
+    <string name="hint_find_email_second">* 手机认证 *</string>
+    <string name="hint_find_email_third">仅限已完成的用户。</string>
+    <string name="hint_select_auth">请使用您在注册时选择的认证方式进行验证。</string>
+    <string name="hint_find_email">请准确填写您的全名和出生日期。</string>
+    <string name="hint_change_password">请填写以下表格以设置新密码。</string>
+
+    <string name="msg_find_email">找回账号</string>
+    <string name="msg_phone_number">手机号码</string>
+    <string name="desc_find_email">请填写必要的信息进行身份验证。</string>
+    <string name="desc_change_password">现在是更新您的密码以保护账户安全的时候了。</string>
+    <string name="dialog_fail_change_password">密码更改失败</string>
+
+    <string name="dialog_cancel_find_email">您确定要取消查找账号吗？</string>
+    <string name="dialog_cancel_find_password">您确定要取消查找密码吗？</string>
+
+    <!--    Sign Up    -->
+    <string name="msg_signup">注册会员</string>
+    <string name="msg_signup_value">注册会员%1$s</string>
+    <string name="msg_input_email">请输入用户名</string>
+    <string name="msg_input_password">请输入密码</string>
+    <string name="msg_reEnter_password">请重新输入密码</string>
+    <string name="msg_name">名字</string>
+    <string name="msg_first_name">名字</string>
+    <string name="msg_last_name">姓</string>
+    <string name="msg_height_value_unit">%1$s厘米</string>
+    <string name="msg_weight_value_unit">%1$s公斤</string>
+    <string name="msg_height_unit">厘米</string>
+    <string name="msg_weight_unit">公斤</string>
+    <string name="msg_male">男性</string>
+    <string name="msg_female">女性</string>
+    <string name="msg_birthday">出生年月日</string>
+
+    <string name="desc_enter_name">请填写您的姓氏和名字！</string>
+    <string name="desc_enter_height_weight">请填写您的身高和体重！</string>
+    <string name="desc_enter_gender">请选择您的性别！</string>
+    <string name="desc_enter_birthday">请选择您的出生日期！</string>
+    <string name="desc_enter_account">请填写您的电子邮件地址和密码！</string>
+
+    <string name="desc_enter_email">请输入您的电子邮件地址</string>
+    <string name="desc_enter_password">请输入密码</string>
+    <string name="desc_re_enter_password">请重新输入您的密码。</string>
+    <string name="desc_valid_password">请设置包含大小写字母，数字和特殊符号等10位数以上的密码。</string>
+    <string name="desc_height">请输入您的身高。</string>
+    <string name="desc_weight">请输入您的体重。</string>
+    <string name="desc_gender">请选择性别。</string>
+    <string name="desc_auth_email">您的电子邮件已通过验证。</string>
+
+    <string name="dialog_valid_name">请输入有效的姓名。</string>
+    <string name="dialog_valid_password_abb">包含大写、数字和符号的密码</string>
+    <string name="dialog_valid_reEnter_password">密码不匹配</string>
+    <string name="dialog_not_agree">请完整阅读并同意条款和条件。</string>
+    <string name="dialog_dup_email">这个ID是存在的。</string>
+    <string name="dialog_move_login">返回登录页面</string>
+    <string name="dialog_move_home">正在转到主屏幕。</string>
+    <string name="dialog_check_email">请检查您的电子邮件格式</string>
+    <string name="dialog_complete_signup">完成注册</string>
+    <string name="dialog_enter_real_email">请输入实际正确的电子邮件地址</string>
+    <string name="dialog_valid_email">请输入有效的电子邮件地址</string>
+    <string name="dialog_valid_email_ex">请输入有效的电子邮件地址\n(例如: lookheart@msl.co.kr)</string>
+
+    <!--    Arr    -->
+    <string name="unit_arr_abb">异常脉搏</string>
+    <string name="unit_arr_abb_newline">异常脉搏</string>
+    <string name="unit_arr_times">异常脉搏\n(次/天)</string>
+    <string name="unit_current_arr">当前心律失常</string>
+
+    <string name="msg_arr_status">状态</string>
+    <string name="msg_arr_type">种类</string>
+    <string name="msg_arr_emergency">紧急状况 :</string>
+
+    <string name="msg_type_arr">异常脉搏</string>
+    <string name="msg_type_fast_arr">心率偏高</string>
+    <string name="msg_type_slow_arr">心率偏低</string>
+    <string name="msg_type_heavy_arr">心律不齐</string>
+    <string name="msg_type_total_arr">异常脉搏(总计)</string>
+    <string name="msg_type_hourly_arr">按小时 异常脉搏</string>
+    <string name="msg_type_daily_arr">每日 异常脉搏</string>
+    <string name="msg_type_monthly_arr">每月 异常脉搏</string>
+    <string name="msg_type_hourly_emergency">按小时 紧急状况</string>
+    <string name="msg_avg_monthly_arr">过去一个月平均心律失常\n次数</string>
+
+    <!--    Arr: Noti Title & Body    -->
+    <string name="dialog_arr">检测到心律不规则!\n</string>
+    <string name="dialog_fast_arr">检测到心率偏高!\n</string>
+    <string name="dialog_slow_arr">检测到心率偏低!\n</string>
+    <string name="dialog_heavy_arr">检测到心律不齐!\n</string>
+    <string name="dialog_time">"时间 : "</string>
+    <string name="dialog_myo">检测到肌电图!\n</string>
+    <string name="dialog_nonContact">检测到电极脱落!</string>
+    <string name="dialog_total_arr">今天发生了异常心率 %1$d次！</string>
+    <string name="dialog_hourly_arr">每小时发生了异常心率 %1$d次！</string>
+
+    <string-array name="dialog_arr_body">
+        <item>为了让您的心找到平静，\n请暂停片刻，休息一下。</item>
+        <item>每天的小休息是\n提高生活质量的关键。</item>
+        <item>即使在忙碌的生活中，\n短暂的休息也可以带来巨大的变化。</item>
+        <item>释放压力，\n让您的心充满平和。</item>
+        <item>怎么样考虑短暂休息一下呢？</item>
+        <item>小憩是巨大的力量来源。</item>
+        <item>花一点时间放松一下。</item>
+        <item>休息不是浪费时间。\n这是对自己最大的投资。</item>
+    </string-array>
+
+    <!--    Arr: Alert Title & Body    -->
+    <string name="dialog_total_arr_title">今天有%1$d次异常心率发生！\n</string>
+    <string name="dialog_hourly_arr_title">在过去的一小时内，有%1$d次异常心率发生！\n</string>
+
+    <string-array name="dialog_total_hourly_arr_body">
+        <item>有时，什么也不做\n就是最大的贡献。\n请花一点时间放松。</item>
+        <item>在忙碌的一天中，短暂的休息可以是一个很棒的礼物。\n请站起来伸展一下。</item>
+        <item>暂停一会儿深呼吸并环顾四周。\n短暂的休息可以成为巨大的力量来源。</item>
+        <item>短暂的休息可以极大地为你的心灵充电。</item>
+        <item>把一切都放在一边，\n今天给自己一些休息时间。</item>
+        <item>你也有权利休息。\n今天给自己一些时间。</item>
+        <item>你的心灵也需要休息。\n暂停一会儿，倾听你的内心声音。</item>
+        <item>持续的热情是值得赞赏的，但\n有时，休息一下\n是必要的。</item>
+    </string-array>
+
+    <!-- Emergency -->
+    <string name="msg_emergency">紧急状况</string>
+    <string name="msg_emergency_alert">紧急报警</string>
+    <string name="msg_emergency_space">紧急状况</string>
+    <string name="dialog_emergency_complete_send">传输完成</string>
+    <string name="dialog_emergency_complete_booked">预约完成</string>
+    <string name="dialog_emergency_failed_send">传输失败</string>
+    <string name="dialog_emergency_sending">发送中..</string>
+    <string name="dialog_emergency_empty_guardian">请立即拨打 120 或前往最近的医院。</string>
+    <string name="dialog_emergency_guardian">您的当前位置已发送给监护人，请立即查看。</string>
+
+    <!--    Profile    -->
+    <string name="msg_sir">""</string>
+    <string name="msg_age">年龄</string>
+    <string name="msg_height">身高</string>
+    <string name="msg_weight">体重</string>
+    <string name="msg_gender">性别</string>
+    <string name="msg_basic">基本信息</string>
+    <string name="msg_target">目标量</string>
+    <string name="msg_setting">设定</string>
+    <string name="msg_menu">菜单</string>
+    <string name="msg_email_template">◦ %1$s</string>
+    <string name="msg_joinDate">注册日期</string>
+    <string name="msg_find_password">密码查找</string>
+    <string name="msg_logout">退出</string>
+    <string name="msg_target_step">目标步数</string>
+    <string name="msg_target_distance">目标移动距离</string>
+    <string name="msg_target_aCal">活动卡路里目标</string>
+    <string name="msg_target_cal">目标总卡路里</string>
+    <string name="msg_sleep">就寝时间</string>
+    <string name="msg_wakeup">起床时间</string>
+    <string name="msg_help_notification">活动通知设置</string>
+    <string name="msg_help_guardian_notification">通知监护人功能</string>
+    <string name="msg_help_guardian_arr_number">发出通知标准次数</string>
+    <string name="msg_phone">手机号码(不含\'-\')</string>
+    <string name="msg_bpm">运动后标准bpm</string>
+    <string name="msg_myo">肌电图</string>
+    <string name="msg_nonContact">电极脱落</string>
+    <string name="msg_guardianNumber1">监护人联系方式</string>
+    <string name="msg_guardianNumber2">监护人联系方式2（不含‘-’）</string>
+    <string name="msg_change_Password">修改密码</string>
+
+    <string name="msg_delete_app_data">删除应用数据</string>
+    <string name="msg_privacy_policy">隐私政策</string>
+    <string name="msg_terms_service">服务条款</string>
+
+    <string name="msg_legal_other">法律信息及其他</string>
+
+    <string name="desc_first_name">请输入名字。</string>
+    <string name="desc_last_name">请输入姓氏。</string>
+    <string name="desc_help_info">您输入的个人信息\n将加密处理，保证信息安全</string>
+    <string name="desc_help_target">"设置适合自己的标准，\n完成每天健康目标"</string>
+    <string name="desc_help_guardian">脉搏异常超过上限值，\n将向安装了监护人应用的监护人发送通知。</string>
+    <string name="desc_help_bpm">成人运动bpm平均值为90次/分</string>
+
+    <string name="desc_valid_first_name">请输入有效的名字。</string>
+    <string name="desc_valid_last_name">请输入有效的姓氏。</string>
+    <string name="desc_valid_height">请输入有效的身高。</string>
+    <string name="desc_valid_weight">请输入有效的体重。</string>
+
+    <string name="desc_set_bed_time">请设置就寝时间！</string>
+    <string name="desc_set_wake_time">请设置起床时间！</string>
+
+    <string name="desc_success_verify">验证完成</string>
+
+    <string name="dialog_valid_data">请正确输入。</string>
+
+    <!-- Delete Account -->
+    <string name="msg_delete_account">会员退出</string>
+    <string name="msg_privacy">个人信息及销毁</string>
+    <string name="msg_service_log">服务使用记录</string>
+    <string name="msg_reSignUp">重新注册</string>
+    <string name="msg_account_delete_agree">同意全部</string>
+
+    <string name="desc_email_example">例如: lookheart@msl.co.kr</string>
+    <string name="desc_privacy">您的个人信息将根据MSL(GREBT)有限公司的隐私政策处理。\n根据法律规定的期限保留个人信息之后，\n将立即销毁。</string>
+    <string name="desc_service_log">如果法律规定需要保留（如交易记录等），\n则该信息将按照法律规定的期限保留。\n这仅适用于需要保留服务使用记录的情况。</string>
+    <string name="desc_reSignIp">即使在注销会员后重新注册，\n注销前的会员信息、交易信息等也将不会被恢复。</string>
+    <string name="desc_notes">您可以在LOOKHEART隐私政策中\n查看更多详情。</string>
+    <string name="desc_account_delete_agree">我已经仔细阅读所有注意事项，并同意所有适用条款。</string>
+    <string name="desc_account_delete">退出LOOKHEART前,\n请检查以下信息。</string>
+
+    <string name="dialog_account_delete">您确定要退出吗？</string>
+    <string name="dialog_completed_delete">账户删除完成</string>
+    <string name="dialog_failer_delete">账户删除失败</string>
+    <string name="dialog_notExist_email">该ID不存在。</string>
+    <string name="dialog_validate_data">请输入有效的%1$s。</string>
+    <string name="dialog_valid_password">密码不符合要求。</string>
+    <string name="dialog_valid_reEnter">密码不一致。</string>
+
+    <!--    Auth    -->
+    <string name="unit_email_address">电子邮件地址</string>
+    <string name="unit_email">电子邮件验证</string>
+    <string name="unit_success_send_email">认证邮件已发送！</string>
+    <string name="unit_phone_number">手机号码验证</string>
+    <string name="msg_verification">身份验证</string>
+    <string name="msg_verify_number">验证码 :</string>
+    <string name="value_country_code">%1$s(%2$d)</string>
+
+    <string name="desc_auth">这是使用服务的身份验证过程。\n请继续进行验证。</string>
+
+    <string name="dialog_select_auth">请选择以下一种方法进行身份验证。\n您可以使用所选方法继续进行验证过程。</string>
+    <string name="dialog_auth_email_help">为了安全保护您的账户，请完成邮箱验证。\n输入您的邮箱并点击按钮，验证邮件将被发送。</string>
+    <string name="dialog_send_auth_email_help">发送验证邮件</string>
+
+    <string name="dialog_success_send_auth_email_help_1">邮件已成功发送！</string>
+    <string name="dialog_success_send_auth_email_help_2">请点击邮件中的</string>
+    <string name="dialog_success_send_auth_email_help_3">\"验证\"</string>
+    <string name="dialog_success_send_auth_email_help_4">按钮以完成身份验证。</string>
+    <string name="dialog_success_send_auth_email_help_5">※ 如果您未收到邮件，请检查您的垃圾邮件箱或重新请求。"</string>
+
+    <string name="dialog_help_select_country">请选择您的国家。</string>
+    <string name="dialog_auth_country_code">国家代码</string>
+    <string name="dialog_cancel_auth">您要取消身份验证过程吗？</string>
+    <string name="dialog_cancel_signup">您要取消您的注册吗？</string>
+    <string name="dialog_resend_number">◦ 如果验证码未发送，请按重新发送按钮。</string>
+    <string name="dialog_verify">请求验证</string>
+    <string name="dialog_success_verify">认证完成</string>
+    <string name="dialog_failed_verify">认证失败。请再试一次。</string>
+    <string name="dialog_time_help">◦ 请在3分钟内输入验证码。</string>
+    <string name="dialog_auth_phone_help">请输入6位数的验证码。</string>
+    <string name="dialog_dup_phoneNumber_help">该号码已存在ID。</string>
+    <string name="dialog_reSend_help">您要修改号码吗？</string>
+    <string name="dialog_exceeded_verification_help">您已超过验证码的每日次数限制。</string>
+    <string name="dialog_sendVerification_help">已发送验证码</string>
+    <string name="dialog_confirmVerification_help">请重新确认验证码</string>
+    <string name="dialog_auth_time_over">请求已超时。请再试一次。</string>
+    <string name="dialog_setupGuardian_help">请准确输入您的手机号码</string>
+    <string name="dialog_find_email_help">查找 ID 结果</string>
+    <string name="dialog_not_found_email">我们无法找到与您输入的信息相对应的账号。</string>
+    <string name="dialog_copy_email">电子邮件已被复制。</string>
+    <string name="dialog_change_password_help">密码更改失败</string>
+
+    <!--    Chart    -->
+    <string name="value_chart_plus">+%1$d</string>
+    <string name="value_chart_minus">-%1$d</string>
+    <string name="value_chart_data">%1$s %2$s</string>
+    <string name="value_chart_percent">%1$d%%</string>
+
+    <!--    Permission    -->
+    <string name="dialog_permission_battery">需要禁用电池优化</string>
+    <string name="dialog_permission_battery_help">为了在后台接收信息，\n需要将本应用设置为电池优化的例外。\n继续请按\'确认\’。</string>
+    <string name="dialog_permission_ble">附近设备</string>
+    <string name="dialog_permission_location">位置</string>
+    <string name="dialog_permission_denied_permission">要使用LOOKHEART应用，\n请授予以下权限。\n◦ 附近设备\n◦ 位置信息</string>
+
+    <!--    Exercise    -->
+    <string name="value_exercise_timer">%1$d</string>
+    <string name="msg_exercise_timer">运动时间</string>
+    <string name="msg_exercise_cnt">运动次数</string>
+
+    <string name="msg_exercise_record_eng">Record</string>
+    <string name="msg_exercise_start_eng">START</string>
+    <string name="msg_exercise_back_eng">BACK</string>
+    <string name="msg_exercise_delete_eng">DELETE</string>
+
+    <string name="msg_date">日期</string>
+    <string name="msg_time">时间</string>
+
+    <string name="msg_exercise_type">运动 :</string>
+    <string name="msg_exercise_time">运动时间 :</string>
+
+    <string name="msg_exercise_avg_bpm">平均</string>
+    <string name="msg_exercise_min">最小</string>
+    <string name="msg_exercise_max">最大</string>
+
+    <string name="msg_step_eng_row">步伐</string>
+    <string name="msg_steps_eng_row">步</string>
+    <string name="msg_times_eng_row">次</string>
+    <string name="msg_exercise_activity_calorie">A.Caloria</string>
+    <string name="msg_exercise_calorie_newline">运.卡</string>
+
+    <string name="dialog_start_exercise">想要开始锻炼？</string>
+    <string name="dialog_save_exercise">您要保存运动数据吗？</string>
+
+    <string name="dialog_prev_noData">不存在以前的数据。</string>
+    <string name="dialog_next_noData">不存在下一个数据。</string>
+    <string name="dialog_delete_help">您确定要删除吗？</string>
+
+    <string name="dialog_comp_delete">删除完成</string>
+    <string name="dialog_fail_delete">删除失败</string>
+    <string name="dialog_add">添加</string>
+    <string name="dialog_remove">移除</string>
+
+    <string name="dialog_fav_eng">FAVS</string>
+    <string name="dialog_list_eng">LIST</string>
+
+    <string name="dialog_add_favorite">您要添加到收藏夹吗？</string>
+    <string name="dialog_delete_favorite">您要从收藏夹中移除吗？</string>
+
+    <string name="desc_search_select_exercise">搜索或选择运动</string>
+    <string name="desc_add_exercise">添加到收藏夹</string>
+    <string name="desc_add_exercise_name">请输入要添加的运动名称。</string>
+
+    <string name="exercise_ball">球类运动</string>
+    <string name="exercise_bike">骑自行车</string>
+    <string name="exercise_crossfit">十字健身</string>
+    <string name="exercise_floor">爬楼梯</string>
+    <string name="exercise_handball">手球</string>
+    <string name="exercise_hiking">徒步旅行</string>
+    <string name="exercise_interval">间歇训练</string>
+    <string name="exercise_jump">跳绳</string>
+    <string name="exercise_kayaking">皮划艇</string>
+    <string name="exercise_pilates">普拉提</string>
+    <string name="exercise_pool">游泳</string>
+    <string name="exercise_rowing">划船</string>
+    <string name="exercise_run">跑步</string>
+    <string name="exercise_scuba">潜水</string>
+    <string name="exercise_skateboarding">滑板</string>
+    <string name="exercise_skiing">滑雪</string>
+    <string name="exercise_strength">力量训练</string>
+    <string name="exercise_stretching">伸展</string>
+    <string name="exercise_surfing">冲浪</string>
+    <string name="exercise_walk">步行</string>
+    <string name="exercise_yoga">瑜伽</string>
+
+    <!--    Stress    -->
+    <string name="unit_stress">压力</string>
+    <string name="unit_stress_upper">压力</string>
+    <string name="unit_stress_score">分数</string>
+    <string name="unit_stress_high">高</string>
+    <string name="hint_stress">每隔5分钟测量一次</string>
+    <string name="hint_measuring_stress">测量中</string>
+
+    <!--    Error Message    -->
+    <string name="error_no_data">无数据显示。</string>
+    <string name="error">发生了未知错误。\n请稍后再试。</string>
+    <string name="error_timeout">请求超时。\n请检查您的互联网连接并重试。</string>
+    <string name="error_io">网络错误发生。\n请检查您的互联网连接并重试。</string>
+    <string name="error_unauthorized">您没有权限。\n请重新登录并重试。</string>
+    <string name="error_forbidden">您无权执行此操作。</string>
+    <string name="error_not_found">找不到您请求的内容。\n请重试。</string>
+    <string name="error_server">服务器出现问题。\n请稍后再试。</string>
+    <string name="error_http">发生了意外错误。\n请稍后再试。</string>
+</resources>

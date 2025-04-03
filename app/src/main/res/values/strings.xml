@@ -1,3 +1,595 @@
 <resources>
-    <string name="app_name">LookHeart</string>
+    <string name="app_name">LOOKHEART</string>
+
+    <!-- TERMS -->
+    <string name="terms_agree">agree_en.txt</string>
+    <string name="terms_privacy">privacy_en.txt</string>
+
+    <!-- MSG -->
+    <string name="msg_ok">OK</string>
+    <string name="msg_cancel_upper">Cancel</string>
+    <string name="msg_reject">Cancel</string>
+    <string name="msg_or">OR</string>
+    <string name="msg_re_request">Retry</string>
+
+    <string name="msg_unknown">Unknown</string>
+    <string name="msg_none">None</string>
+
+    <string name="msg_enable">ON</string>
+    <string name="msg_disable">OFF</string>
+
+    <string name="msg_later">Later</string>
+    <string name="msg_reSend">Resend</string>
+    <string name="msg_agree">Agree</string>
+
+    <string name="msg_back">Go back</string>
+    <string name="msg_next">Next</string>
+    <string name="msg_move_first">Home</string>
+
+    <string name="msg_stop_space">STOP</string>
+    <string name="msg_search_space">Search</string>
+    <string name="msg_save_space">Save</string>
+    <string name="msg_save">Save</string>
+
+    <string name="msg_exit">Exit</string>
+
+    <string name="msg_all">All</string>
+    <string name="msg_details">Details</string>
+
+    <string name="msg_hour">%1$dh</string>
+    <string name="msg_hour_string">%1$sh</string>
+    <string name="msg_time_value">%1$sh %2$sm %3$ss</string>
+
+    <string name="msg_total_occ">Total Occurrences</string>
+    <string name="msg_avg_occ">Average Occurrences</string>
+    <string name="msg_hourly_occ">Hourly Average</string>
+    <string name="msg_daily_occ">Daily Average</string>
+    <string name="msg_monthly_occ">Monthly Average</string>
+
+    <string name="msg_std_dev">Std Dev</string>
+    <string name="msg_max_std_dev">Max Std Dev</string>
+    <string name="msg_min_std_dev">Min Std Dev</string>
+
+    <!-- Dialog -->
+    <string name="dialog_notification">Notification</string>
+    <string name="dialog_exit">Exit?</string>
+    <string name="dialog_save">Saved</string>
+    <string name="dialog_logout">Are you sure you want to log out?</string>
+    <string name="dialog_ready_func">The function is under preparation</string>
+    <string name="dialog_update_app">An app update is required.\nWould you like to update it in the Play Store?</string>
+    <string name="dialog_emergency_send">Guardian alert will be sent.\nPress button to cancel.</string>
+    <string name="dialog_emergency_send_offline">After network restoration,\nguardian alert will be sent.\nPress button to cancel.</string>
+    <string name="dialog_emergency_retrieve_location">Unable to retrieve location.</string>
+
+    <!--    Error    -->
+    <string name="dialog_error_version">The server could not verify the version.</string>
+    <string name="dialog_error_connect">Unable to connect to the server. Please try again later.</string>
+    <string name="dialog_error_noData">No data available</string>
+    <string name="dialog_error_server">Failed to retrieve data from the server</string>
+    <string name="dialog_error_server_noData">The server failed to verify the data.</string>
+    <string name="dialog_error_network">A network error has occurred.\n%1$s</string>
+    <string name="dialog_error_load_data">A connection issue with the server has occurred.\nPlease log in again.</string>
+
+    <!-- Navi -->
+    <string name="navi_home">home</string>
+    <string name="navi_summary">Summary</string>
+    <string name="navi_exercise">Exercise</string>
+    <string name="navi_arr">I.H.R.</string>
+    <string name="navi_profile">Profile</string>
+
+    <string name="navi_home_eng">Home</string>
+    <string name="navi_summary_eng">Summary</string>
+    <string name="navi_exercise_eng">Exercise</string>
+    <string name="navi_arr_eng">I.H.R.</string>
+    <string name="navi_profile_eng">Profile</string>
+
+    <!-- Status -->
+    <string name="msg_status_rest">R</string>
+    <string name="msg_status_exercise">A</string>
+    <string name="msg_status_sleep">S</string>
+
+    <!-- Ble -->
+    <string name="msg_ble_device_list">Connectable devices</string>
+    <string name="msg_ble_device_connect">Connect</string>
+    <string name="msg_ble_device_disconnect">Disconnect</string>
+    <string name="msg_ble_device_scan">Find Device</string>
+    <string name="msg_ble_off">Bluetooth Off</string>
+
+    <string name="desc_ble_device_connect">Would you like to connect\n%1$s</string>
+    <string name="desc_ble_always_connect">Always Connected</string>
+    <string name="desc_ble_disconnect">Would you like to disconnect this device?</string>
+    <string name="desc_ble_disabled">Bluetooth is off.\nPlease turn it on.</string>
+
+    <!-- Unit -->
+    <string name="unit_number">Number</string>
+    <string name="unit_time">time</string>
+    <string name="unit_min">Min</string>
+    <string name="unit_max">Max</string>
+    <string name="unit_avg_cap">Avg</string>
+
+    <!-- Stress -->
+    <string name="label_unit_avg_sns">Average Sympathetic</string>
+    <string name="label_unit_avg_pns">Average Parasympathetic</string>
+
+    <string name="unit_pns">PNS</string>
+    <string name="unit_sns">SNS</string>
+
+    <!-- Temp -->
+    <string name="unit_temperature">°C</string>
+    <string name="msg_temperature">Skin temp</string>
+    <string name="value_temperature">- °C</string>
+
+    <!-- Step -->
+    <string name="unit_step_cap">Step</string>
+    <string name="unit_step">Steps</string>
+    <string name="value_step">0 step</string>
+    <string name="label_hourly_steps">Hourly Steps</string>
+    <string name="label_daily_steps">Daily Steps</string>
+    <string name="label_monthly_steps">Monthly Steps</string>
+
+    <string name="value_steps">%1$d steps</string>
+
+    <!-- Distance -->
+    <string name="unit_travel_distance">Distance</string>
+    <string name="unit_distance">Distance</string>
+    <string name="unit_distance_km">km</string>
+    <string name="unit_distance_m">m</string>
+    <string name="value_distance">0.000 km</string>
+    <string name="label_hourly_distance">Hourly Distance</string>
+    <string name="label_daily_distance">Daily Distance</string>
+    <string name="label_monthly_distance">Monthly Distance</string>
+
+    <string name="value_distance_3f">%1$.3f km</string>
+
+    <!-- Bpm -->
+    <string name="unit_bpm_upper">BPM</string>
+    <string name="unit_bpm_low">bpm</string>
+    <string name="unit_bpm_cap">BPM</string>
+    <string name="unit_bpm_avg">Average</string>
+    <string name="unit_current_bpm">Current Heart Rate</string>
+
+    <!-- Calorie -->
+    <string name="unit_tCal_cap">Calorie</string>
+    <string name="unit_kcal">kcal</string>
+
+    <string name="unit_calorie_burn">Calories Burned</string>
+
+    <string name="unit_tCal">Total calories</string>
+    <string name="unit_tCal_newline">Total\ncalories</string>
+
+    <string name="unit_eCal">Activity calories</string>
+    <string name="unit_eCal_newline">Activity\ncalories</string>
+
+    <string name="value_eCal">0 kcal</string>
+    <string name="msg_eCal_abb">Activity cal</string>
+
+    <string name="value_calorie">%1$d kcal</string>
+
+    <string name="label_hourly_calorie">Hourly Calories Burned</string>
+    <string name="label_hourly_active_calorie">Hourly Active Calories</string>
+
+    <string name="label_daily_calorie">Daily Calories Burned</string>
+    <string name="label_daily_active_calorie">Daily Active Calories</string>
+
+    <string name="label_monthly_calorie">Monthly Calories Burned</string>
+    <string name="label_monthly_active_calorie">Monthly Active Calories</string>
+
+    <!-- HRV -->
+    <string name="msg_hrv_eng">HRV</string>
+    <string name="unit_hrv_upper">HRV</string>
+    <string name="unit_hrv_avg">Average</string>
+    <string name="unit_hrv">ms</string>
+
+    <!--    Date    -->
+    <string name="unit_today">Today</string>
+    <string name="unit_twoDays">2 Days</string>
+    <string name="unit_threeDays">3 Days</string>
+
+    <string name="unit_day">Day</string>
+    <string name="unit_week">Week</string>
+    <string name="unit_month">Month</string>
+    <string name="unit_year">Year</string>
+
+    <!--    Day of the week    -->
+    <string name="unit_monday">MON</string>
+    <string name="unit_tuesday">Tue</string>
+    <string name="unit_wednesday">Wed</string>
+    <string name="unit_thursday">Thu</string>
+    <string name="unit_friday">Fri</string>
+    <string name="unit_saturday">Sat</string>
+    <string name="unit_sunday">Sun</string>
+
+    <!--    Start    -->
+    <string name="msg_start">Get Started</string>
+    <string name="msg_welcome_eng">Welcome!</string>
+    <string name="desc_welcome">Welcome to the LOOKHEART service.\nPlease log in or sign up to get started!</string>
+
+    <!--    Guardian    -->
+    <string name="msg_guardian">Guardian</string>
+    <string name="msg_set_guardian">Guardian Settings</string>
+    <string name="msg_alert_guardian">Guardian Alerts</string>
+    <string name="dialog_guardian_phone">Please enter the guardian\'s phone number.</string>
+    <string name="dialog_valid_guardian">Please enter %1$s correctly.\n(6 or more digits)</string>
+    <string name="dialog_delete_guardian">Are you sure you want to delete the guardian?</string>
+
+    <!--    Login    -->
+    <string name="msg_login">Log in</string>
+    <string name="msg_login_eng">Login</string>
+    <string name="msg_quick_login">Quick Login</string>
+    <string name="msg_google_login">Sign in with Google</string>
+
+    <string name="msg_email">E-mail</string>
+    <string name="msg_password">Password</string>
+    <string name="msg_autoLogin">Auto-Login</string>
+    <string name="msg_find_email_password">Forgot your password?</string>
+
+    <string name="desc_login">Welcome to the LOOKHEART service.\nEnter your registered ID and password.</string>
+    <string name="desc_login_hint">Log in with your email and password.</string>
+    <string name="desc_signup">Is this your first time using LOOKHEART?</string>
+    <string name="desc_select_birthday">Please select your date of birth.</string>
+    <string name="desc_select_date">Please select a date.</string>
+
+    <string name="dialog_social_login">An error occurred during login.\nPlease try again.</string>
+    <string name="dialog_social_signUp">No account found.\nWould you like to create one?</string>
+    <string name="dialog_cannot_found_phoneNumbe">Cannot find the phone number.\nPlease try again.</string>
+    <string name="dialog_incorrect_email_password">The format of your email or password is incorrect.\nPlease use the correct format and try again.</string>
+    <string name="dialog_incorrect_password">The password format you entered is incorrect.\nPassword: ≥10 chars incl. uppercase, lowercase, numbers, &amp; special chars</string>
+    <string name="dialog_fail_login">Login failed.\nPlease check your email and password and try again.</string>
+
+    <!--    Change Password & Find Email    -->
+    <string name="label_find_email_password">ID/Password Recovery</string>
+    <string name="hint_find_email_first">ID recovery is</string>
+    <string name="hint_find_email_second">* mobile phone verification *</string>
+    <string name="hint_find_email_third">only available to users who have completed.</string>
+    <string name="hint_select_auth">Please authenticate using the method you selected during sign up.</string>
+    <string name="hint_find_email">Please provide your full name and date of birth accurately.</string>
+    <string name="hint_change_password">Please fill out the form below to set a new password.</string>
+
+    <string name="msg_find_email">Find ID</string>
+    <string name="msg_phone_number">Phone Number</string>
+    <string name="desc_find_email">Please enter the required information for identity verification.</string>
+    <string name="desc_change_password">It\'s time to update your password for account security.</string>
+    <string name="dialog_fail_change_password">Password Change Failed</string>
+
+    <string name="dialog_cancel_find_email">Do you want to cancel the ID search?</string>
+    <string name="dialog_cancel_find_password">Do you want to cancel the password search?</string>
+
+    <!--    Sign Up    -->
+    <string name="msg_signup">Sign up</string>
+    <string name="msg_signup_value">Sign up%1$s</string>
+    <string name="msg_input_email">Enter ID(E-mail)</string>
+    <string name="msg_input_password">Enter Password</string>
+    <string name="msg_reEnter_password">Re-enter password</string>
+    <string name="msg_name">Name</string>
+    <string name="msg_first_name">First Name</string>
+    <string name="msg_last_name">Last Name</string>
+    <string name="msg_height_value_unit">%1$scm</string>
+    <string name="msg_weight_value_unit">%1$skg</string>
+    <string name="msg_height_unit">cm</string>
+    <string name="msg_weight_unit">kg</string>
+    <string name="msg_male">Male</string>
+    <string name="msg_female">Female</string>
+    <string name="msg_birthday">Birth Date</string>
+
+    <string name="desc_enter_name">Please enter your first and last name!</string>
+    <string name="desc_enter_height_weight">Please enter your height and weight!</string>
+    <string name="desc_enter_gender">Please choose your gender!</string>
+    <string name="desc_enter_birthday">Please select your date of birth!</string>
+    <string name="desc_enter_account">Please enter your email address and password!</string>
+
+    <string name="desc_enter_email">Please enter your email</string>
+    <string name="desc_enter_password">Please enter a password</string>
+    <string name="desc_re_enter_password">Please re-enter your password.</string>
+    <string name="desc_valid_password">Password: ≥10 chars incl. uppercase, lowercase, numbers, &amp; special chars</string>
+    <string name="desc_height">Please enter your height.</string>
+    <string name="desc_weight">Please enter your weight.</string>
+    <string name="desc_gender">Please choose your gender.</string>
+    <string name="desc_auth_email">Your email is verified.</string>
+
+    <string name="dialog_valid_name">Please enter a valid name.</string>
+    <string name="dialog_valid_password_abb">Password with uppercase, numbers, and symbols</string>
+    <string name="dialog_valid_reEnter_password">Passwords do not match</string>
+    <string name="dialog_not_agree">Please read and agree to the terms and conditions in full.</string>
+    <string name="dialog_dup_email">This email already exists.</string>
+    <string name="dialog_move_login">Return to the login page</string>
+    <string name="dialog_move_home">Moving to the home screen.</string>
+    <string name="dialog_check_email">Please check your email format.</string>
+    <string name="dialog_complete_signup">completed</string>
+    <string name="dialog_enter_real_email">Please enter the actual email you are using.</string>
+    <string name="dialog_valid_email">Please enter a valid email</string>
+    <string name="dialog_valid_email_ex">Please enter a valid email address\n(e.g., lookheart@msl.co.kr)</string>
+
+    <!--    Arr    -->
+    <string name="unit_arr_abb">I.H.R.</string>
+    <string name="unit_arr_abb_newline">I.H.R.</string>
+    <string name="unit_arr_times">I.H.R.\n(times/Day)</string>
+    <string name="unit_current_arr">Current Arrhythmia</string>
+
+    <string name="msg_arr_status">Status</string>
+    <string name="msg_arr_type">Type</string>
+    <string name="msg_arr_emergency">"Emergency: "</string>
+
+    <string name="msg_type_arr">I.H.R.</string>
+    <string name="msg_type_fast_arr">Fast heart rhythm</string>
+    <string name="msg_type_slow_arr">Slow heart rhythm</string>
+    <string name="msg_type_heavy_arr">Heavy I.H.R.</string>
+    <string name="msg_type_total_arr">I.H.R.(Total)</string>
+    <string name="msg_type_hourly_arr">Hourly I.H.R.</string>
+    <string name="msg_type_daily_arr">Daily I.H.R.</string>
+    <string name="msg_type_monthly_arr">Monthly I.H.R.</string>
+    <string name="msg_type_hourly_emergency">Hourly Emergency</string>
+    <string name="msg_avg_monthly_arr">Average Arrhythmia\nEpisodes Last Month</string>
+
+    <!--    Arr: Noti Title & Body    -->
+    <string name="dialog_arr">I.H.R. detected!\n</string>
+    <string name="dialog_fast_arr">Fast heart rhythm detected!\n</string>
+    <string name="dialog_slow_arr">Slow heart rhythm detected!\n</string>
+    <string name="dialog_heavy_arr">Heavy I.H.R. detected!\n</string>
+    <string name="dialog_time">"Time : "</string>
+    <string name="dialog_myo">Myo-activity detected!\n</string>
+    <string name="dialog_nonContact">Electrode detached!\n</string>
+    <string name="dialog_total_arr">I.H.R. occurred %1$d times today!</string>
+    <string name="dialog_hourly_arr">I.H.R. occurred %1$d times per hour!</string>
+
+    <string-array name="dialog_arr_body">
+        <item>To find peace in your heart,\nplease take a moment to pause and rest.</item>
+        <item>A little rest each day is\nthe key to improving the quality of life.</item>
+        <item>Even in a busy life,\na small break can make a big difference.</item>
+        <item>Let go of stress,\nand fill your heart with peace.</item>
+        <item>How about taking a short break?</item>
+        <item>A little rest is a great source of strength.</item>
+        <item>Take a moment to relax.</item>
+        <item>Rest is not a waste of time.\nIt\'s the greatest investment in yourself.</item>
+    </string-array>
+
+    <!--    Arr: Alert Title & Body    -->
+    <string name="dialog_total_arr_title">Today, there were %1$d instances of I.H.R.!\n</string>
+    <string name="dialog_hourly_arr_title">There were %1$d instances of I.H.R. in the last hour!\n</string>
+
+    <string-array name="dialog_total_hourly_arr_body">
+        <item>Sometimes, doing nothing is\ndoing the most.\nTake a moment to relax.</item>
+        <item>In a busy day, a short break can be a great gift.\nTake a moment to stand up and stretch.</item>
+        <item>Pause for a moment to breathe\ndeeply and look around.\nA little rest can be a great\nsource of strength.</item>
+        <item>A brief rest can greatly recharge your mind.</item>
+        <item>Put everything aside for a moment,\nand gift yourself some rest today.</item>
+        <item>You have the right to rest too.\nTake some time for yourself today.</item>
+        <item>Your heart needs rest as well.\nPause for a moment and listen to your\ninner voice.</item>
+        <item>Constant passion is admirable, but\nsometimes, taking a break\nis necessary.</item>
+    </string-array>
+
+    <!-- Emergency -->
+    <string name="msg_emergency">Emergency</string>
+    <string name="msg_emergency_alert">Emergency alert</string>
+    <string name="msg_emergency_space">Emergency</string>
+    <string name="dialog_emergency_complete_send">Sent</string>
+    <string name="dialog_emergency_complete_booked">Booked</string>
+    <string name="dialog_emergency_failed_send">Send Failed</string>
+    <string name="dialog_emergency_sending">Sending..</string>
+    <string name="dialog_emergency_empty_guardian">Call 911 or go to the nearest hospital immediately.</string>
+    <string name="dialog_emergency_guardian">Your location has been sent to your guardian. Please check immediately.</string>
+
+    <!--    Profile    -->
+    <string name="msg_sir">""</string>
+    <string name="msg_age">Age</string>
+    <string name="msg_height">Height</string>
+    <string name="msg_weight">Weight</string>
+    <string name="msg_gender">gender</string>
+    <string name="msg_basic">Info</string>
+    <string name="msg_target">Target</string>
+    <string name="msg_setting">Setting</string>
+    <string name="msg_menu">Menu</string>
+    <string name="msg_email_template">◦ %1$s</string>
+    <string name="msg_joinDate">Join Date</string>
+    <string name="msg_find_password">Find Password</string>
+    <string name="msg_logout">LOGOUT</string>
+    <string name="msg_target_step">Target Steps</string>
+    <string name="msg_target_distance">Target Distance</string>
+    <string name="msg_target_aCal">Activity Calorie Goal</string>
+    <string name="msg_target_cal">Total Calorie Goal</string>
+    <string name="msg_sleep">Bed time</string>
+    <string name="msg_wakeup">Wake up time</string>
+    <string name="msg_help_notification">Activity Notification Settings</string>
+    <string name="msg_help_guardian_notification">Guardian notification</string>
+    <string name="msg_help_guardian_arr_number">Number of I.H.R.</string>
+    <string name="msg_phone">Phone Number(excluding \'-\')</string>
+    <string name="msg_bpm">Activity-based bpm</string>
+    <string name="msg_myo">Myo-activity</string>
+    <string name="msg_nonContact">Electrode detached</string>
+    <string name="msg_guardianNumber1">Guardian phone number</string>
+    <string name="msg_guardianNumber2">Guardian2 phone number(excluding \'-\')</string>
+    <string name="msg_change_Password">Change Pw</string>
+
+    <string name="msg_delete_app_data">Delete App Data</string>
+    <string name="msg_privacy_policy">Privacy Policy</string>
+    <string name="msg_terms_service">Terms of Service</string>
+
+    <string name="msg_legal_other">Legal &amp; Other</string>
+
+    <string name="desc_first_name">Please enter a first name.</string>
+    <string name="desc_last_name">Please enter a last name.</string>
+    <string name="desc_help_info">All personal information\nyou enter is encrypted and safely managed.</string>
+    <string name="desc_help_target">Set standards that are right for you,\nand achieve your daily health goals.</string>
+    <string name="desc_help_guardian">When abnormal pulses exceed the set limit,\na notification is sent to the guardian with the app installed.</string>
+    <string name="desc_help_bpm">The average bpm for adult activity is 90.</string>
+
+    <string name="desc_valid_first_name">Enter a valid first name.</string>
+    <string name="desc_valid_last_name">Enter a valid last name.</string>
+    <string name="desc_valid_height">Enter a valid height.</string>
+    <string name="desc_valid_weight">Enter a valid weight.</string>
+
+    <string name="desc_set_bed_time">Set Bedtime!</string>
+    <string name="desc_set_wake_time">Set Wake Time!</string>
+
+    <string name="desc_success_verify">Verified</string>
+
+    <string name="dialog_valid_data">Please enter a valid input.</string>
+
+    <!-- Delete Account -->
+    <string name="msg_delete_account">Account Deletion</string>
+    <string name="msg_privacy">Personal Information and Destruction</string>
+    <string name="msg_service_log">Service Usage Records</string>
+    <string name="msg_reSignUp">Re-registration</string>
+    <string name="msg_account_delete_agree">Agree to All</string>
+
+    <string name="desc_email_example">e.g., lookheart@msl.co.kr</string>
+    <string name="desc_privacy">Your personal information will be processed in accordance with MSL Co., Ltd.(GREBT)\'s privacy policy.\nPersonal information will be retained only for the period specified by law and will be immediately destroyed thereafter.</string>
+    <string name="desc_service_log">In cases where retention is necessary by law (such as transaction records),\nthe information will be kept for the period specified by the law.\nThis applies only when it is necessary to preserve records of service use.</string>
+    <string name="desc_reSignIp">Even if you re-register after cancelling your membership,\nprevious member information and transaction records will not be restored.</string>
+    <string name="desc_notes">For more details, you can check in the LOOKHEART Privacy Policy.</string>
+    <string name="desc_account_delete_agree">I have read all the precautions and agree to all the terms.</string>
+    <string name="desc_account_delete">Before leaving LOOKHEART,\nplease check the information below.</string>
+
+    <string name="dialog_account_delete">Are you sure you want to withdraw?</string>
+    <string name="dialog_completed_delete">Account deletion completed</string>
+    <string name="dialog_failer_delete">Account deletion failed</string>
+    <string name="dialog_notExist_email">The ID does not exist.</string>
+    <string name="dialog_validate_data">Please enter a valid %1$s.</string>
+    <string name="dialog_valid_password">Your password does not meet the requirements.</string>
+    <string name="dialog_valid_reEnter">The passwords do not match.</string>
+
+    <!--    Auth    -->
+    <string name="unit_email_address">Email Address</string>
+    <string name="unit_email">Email Verification</string>
+    <string name="unit_success_send_email">Verification Email Sent!</string>
+    <string name="unit_phone_number">Phone Number Verification</string>
+    <string name="msg_verification">Identity Verification</string>
+    <string name="msg_verify_number">Verify Number :</string>
+    <string name="value_country_code">%1$s(%2$d)</string>
+
+    <string name="desc_auth">Please complete identity verification\nto use the service.</string>
+
+    <string name="dialog_select_auth">Please select one of the following methods to verify your identity.\nYou can proceed with the verification process using your chosen method.</string>
+    <string name="dialog_auth_email_help">To protect your account securely, please complete email verification.\nEnter your email and click the button to send the verification email.</string>
+    <string name="dialog_send_auth_email_help">Send Verification Email</string>
+
+    <string name="dialog_success_send_auth_email_help_1">Email Sent Successfully!</string>
+    <string name="dialog_success_send_auth_email_help_2">Please click the</string>
+    <string name="dialog_success_send_auth_email_help_3">\"Verify\"</string>
+    <string name="dialog_success_send_auth_email_help_4">button included in the email to complete your verification.</string>
+    <string name="dialog_success_send_auth_email_help_5">※ If you did not receive the email, please check your spam folder or request it again.</string>
+
+    <string name="dialog_help_select_country">Choose your country.</string>
+    <string name="dialog_auth_country_code">Country Code</string>
+    <string name="dialog_cancel_auth">Do you want to cancel the identity verification process?</string>
+    <string name="dialog_cancel_signup">Are you sure you want to cancel your sign-up?</string>
+    <string name="dialog_resend_number">◦ No code? Press resend.</string>
+    <string name="dialog_verify">Verify</string>
+    <string name="dialog_success_verify">Verification Complete</string>
+    <string name="dialog_failed_verify">Authentication Failed. Please try again.</string>
+    <string name="dialog_time_help">◦ Enter the code within 3 minutes.</string>
+    <string name="dialog_auth_phone_help">Please enter the 6-digit verification code.</string>
+    <string name="dialog_dup_phoneNumber_help">The ID already exists for this number.</string>
+    <string name="dialog_reSend_help">Would you like to modify the number?</string>
+    <string name="dialog_exceeded_verification_help">You have exceeded the daily limit for verification codes.</string>
+    <string name="dialog_sendVerification_help">Send a Certification number</string>
+    <string name="dialog_confirmVerification_help">Please confirm your Certification number again</string>
+    <string name="dialog_auth_time_over">The request has timed out.\nPlease try again.</string>
+    <string name="dialog_setupGuardian_help">Please enter your cell phone number correctly</string>
+    <string name="dialog_find_email_help">Find ID results</string>
+    <string name="dialog_not_found_email">We cannot find an ID corresponding to the information you entered.</string>
+    <string name="dialog_copy_email">The email has been copied.</string>
+    <string name="dialog_change_password_help">Password change complete</string>
+
+    <!--    Chart    -->
+    <string name="value_chart_plus">+%1$d</string>
+    <string name="value_chart_minus">-%1$d</string>
+    <string name="value_chart_data">%1$s %2$s</string>
+    <string name="value_chart_percent">%1$d%%</string>
+
+    <!--    Permission    -->
+    <string name="dialog_permission_battery">Requires disabling battery optimisation</string>
+    <string name="dialog_permission_battery_help">To enable background data,\nturn off battery optimization.\nPress \'OK\' to proceed.</string>
+    <string name="dialog_permission_ble">Nearby devices</string>
+    <string name="dialog_permission_location">Location</string>
+    <string name="dialog_permission_denied_permission">To use the LOOKHEART app,\nplease grant the following permissions.\n◦ Nearby devices\n◦ Location information</string>
+
+    <!--    Exercise    -->
+    <string name="value_exercise_timer">%1$d</string>
+    <string name="msg_exercise_timer">Exercise Time</string>
+    <string name="msg_exercise_cnt">Exercise Frequency</string>
+
+    <string name="msg_exercise_record_eng">Record</string>
+    <string name="msg_exercise_start_eng">START</string>
+    <string name="msg_exercise_back_eng">BACK</string>
+    <string name="msg_exercise_delete_eng">DELETE</string>
+
+    <string name="msg_date">Date</string>
+    <string name="msg_time">Time</string>
+
+    <string name="msg_exercise_type">Exercise :</string>
+    <string name="msg_exercise_time">Time :</string>
+
+    <string name="msg_exercise_avg_bpm">Avg\nBpm</string>
+    <string name="msg_exercise_min">Min</string>
+    <string name="msg_exercise_max">Max</string>
+
+    <string name="msg_step_eng_row">step</string>
+    <string name="msg_steps_eng_row">steps</string>
+    <string name="msg_times_eng_row">count</string>
+    <string name="msg_exercise_activity_calorie">A.calorie</string>
+    <string name="msg_exercise_calorie_newline">Activity\ncalorie</string>
+
+    <string name="dialog_start_exercise">Do you want to start the exercise?</string>
+    <string name="dialog_save_exercise">Do you want to save the exercise data?</string>
+
+    <string name="dialog_prev_noData">Previous data does not exist.</string>
+    <string name="dialog_next_noData">Next data does not exist.</string>
+    <string name="dialog_delete_help">Are you sure you want to delete exercise?</string>
+
+    <string name="dialog_comp_delete">Deletion Completed</string>
+    <string name="dialog_fail_delete">Deletion Failed</string>
+    <string name="dialog_add">Add</string>
+    <string name="dialog_remove">Remove</string>
+
+    <string name="dialog_fav_eng">FAVS</string>
+    <string name="dialog_list_eng">LIST</string>
+
+    <string name="dialog_add_favorite">Would you like to add to favorites?</string>
+    <string name="dialog_delete_favorite">Would you like to remove from favorites?</string>
+
+    <string name="desc_search_select_exercise">Search or select an exercise</string>
+    <string name="desc_add_exercise">Add to Favorites</string>
+    <string name="desc_add_exercise_name">Please enter the name of the exercise to add.</string>
+
+    <string name="exercise_ball">Ball sports</string>
+    <string name="exercise_bike">Bike</string>
+    <string name="exercise_crossfit">CrossFit</string>
+    <string name="exercise_floor">Stair climbing</string>
+    <string name="exercise_handball">Handball</string>
+    <string name="exercise_hiking">Hiking</string>
+    <string name="exercise_interval">Interval training</string>
+    <string name="exercise_jump">Jump rope</string>
+    <string name="exercise_kayaking">Kayaking</string>
+    <string name="exercise_pilates">Pilates</string>
+    <string name="exercise_pool">Swimming</string>
+    <string name="exercise_rowing">Rowing</string>
+    <string name="exercise_run">Running</string>
+    <string name="exercise_scuba">Scuba diving</string>
+    <string name="exercise_skateboarding">Skateboarding</string>
+    <string name="exercise_skiing">Skiing</string>
+    <string name="exercise_strength">Strength training</string>
+    <string name="exercise_stretching">Stretching</string>
+    <string name="exercise_surfing">Surfing</string>
+    <string name="exercise_walk">Walking</string>
+    <string name="exercise_yoga">Yoga</string>
+
+
+    <!--    Stress    -->
+    <string name="unit_stress">Stress</string>
+    <string name="unit_stress_upper">STRESS</string>
+    <string name="unit_stress_score">Score</string>
+    <string name="unit_stress_high">High</string>
+    <string name="hint_stress">Measure at 5-minute intervals</string>
+    <string name="hint_measuring_stress">Measuring</string>
+
+    <!--    Error Message    -->
+    <string name="error_no_data">No data to display.</string>
+    <string name="error">An unknown error occurred.\nPlease try again later.</string>
+    <string name="error_timeout">The request timed out.\nPlease check your internet connection and try again.</string>
+    <string name="error_io">A network error occurred.\nPlease check your internet connection and try again.</string>
+    <string name="error_unauthorized">You are not authorized.\nPlease log in again and try.</string>
+    <string name="error_forbidden">You do not have permission to perform this action.</string>
+    <string name="error_not_found">The requested content could not be found.\nPlease try again.</string>
+    <string name="error_server">A server error occurred.\nPlease try again later.</string>
+    <string name="error_http">An unexpected error occurred.\nPlease try again later.</string>
 </resources>
