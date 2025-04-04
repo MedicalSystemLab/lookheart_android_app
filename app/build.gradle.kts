@@ -27,13 +27,13 @@ android {
             buildConfigField(
                 type = "String",
                 name = "API_BASE_URL",
-                value = "\"http://db.medsyslab.co.kr:40083/\""
+                value = "\"https://db.medsyslab.co.kr:40082/\""
             )
 
             buildConfigField(
                 type = "String",
                 name = "API_WSS_URL",
-                value = "\"ws://db.medsyslab.co.kr:40083/\""
+                value = "\"wss://db.medsyslab.co.kr:40082/\""
             )
 
             buildConfigField(
@@ -153,6 +153,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    /** Constraintlayout  **/
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.constraintlayout.compose)
+
+    /** Navigation  **/
+    implementation(libs.androidx.compose.nav)
 
     /** Koin **/
     implementation(libs.koin.android)
@@ -162,7 +168,8 @@ dependencies {
     /** Browser **/
     implementation(libs.browser)
 
-    /** Network: okhttp3, retrofit **/
+    /** Network: socket, okhttp3, retrofit **/
+    implementation(libs.socket)
     implementation(libs.okhttp3)
     implementation(libs.retrofit)
     implementation(libs.retrofitScalars)

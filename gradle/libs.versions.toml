@@ -12,6 +12,7 @@ koin = "3.4.1"
 androidx_browser = "1.8.0"
 okhttp = "4.10.0"
 retrofit = "2.11.0"
+socket = "2.1.0"
 mpandroidchart = "3.1.0"
 libphonenumber = "8.13.30"
 eventbus = "3.3.1"
@@ -20,6 +21,9 @@ kotlinxSerialization = "1.5.1"
 googlePlayService = "21.3.0"
 room = "2.6.1"
 ksp = "2.0.20-1.0.24"
+composeNav = "2.8.9"
+constraintlayout = "2.2.1"
+constraintlayoutCompose = "1.1.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -37,6 +41,13 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 
+# Constraintlayout
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+
+# Navigation
+androidx-compose-nav = { group = "androidx.navigation", name = "navigation-compose", version.ref = "composeNav" }
+
 
 # Koin
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
@@ -49,6 +60,7 @@ browser = { group = "androidx.browser", name = "browser", version.ref = "android
 
 
 # network
+socket = { group = "io.socket", name = "socket.io-client", version.ref = "socket" }
 okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofitScalars = { group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "retrofit" }
